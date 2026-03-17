@@ -1,0 +1,79 @@
+:root {
+  /* ===== LADYBUG THEME (Default) ===== */
+  --ladybug-red: #f21c1e;
+  --ladybug-dark: #0a0b10;
+  --ladybug-red-light: #ff4d4f;
+  --ladybug-red-dark: #c41618;
+  --ladybug-dark-light: #1a1b24;
+  --ladybug-dark-lighter: #2a2b38;
+
+  /* ===== CHAT NOIR THEME ===== */
+  --chatnoir-green: #4a9c2d;
+  --chatnoir-dark: #080808;
+  --chatnoir-green-light: #5cb338;
+  --chatnoir-green-dark: #3a7a23;
+  --chatnoir-dark-light: #121212;
+  --chatnoir-dark-lighter: #1c1c1c;
+  
+  /* ===== Semantic colors (Ladybug default) ===== */
+  --bg-primary: var(--ladybug-dark);
+  --bg-secondary: var(--ladybug-dark-light);
+  --bg-tertiary: var(--ladybug-dark-lighter);
+  --accent: var(--ladybug-red);
+  --accent-hover: var(--ladybug-red-light);
+  --accent-active: var(--ladybug-red-dark);
+  
+  /* Text colors */
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0a8;
+  --text-muted: #606068;
+  --text-tertiary: #707078;
+  
+  /* Borders */
+  --border: #2a2b38;
+  --border-color: #2a2b38;
+  --border-accent: var(--accent);
+  
+  /* Spacing - Mobile optimized */
+  --spacing-xs: 6px;
+  --spacing-sm: 12px;
+  --spacing-md: 20px;
+  --spacing-lg: 28px;
+  --spacing-xl: 40px;
+  
+  /* Border radius */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+  
+  /* Font sizes - Mobile optimized */
+  --font-xs: 14px;
+  --font-sm: 16px;
+  --font-base: 16px;
+  --font-md: 18px;
+  --font-lg: 22px;
+  --font-xl: 26px;
+  
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* ===== CHAT NOIR THEME OVERRIDE ===== */
+[data-persona="chatnoir"] {
+  --bg-primary: var(--chatnoir-dark);
+  --bg-secondary: var(--chatnoir-dark-light);
+  --bg-tertiary: var(--chatnoir-dark-lighter);
+  --accent: var(--chatnoir-green);
+  --accent-hover: var(--chatnoir-green-light);
+  --accent-active: var(--chatnoir-green-dark);
+  --border: #1a1a1a;
+  --border-color: #1a1a1a;
+  --border-accent: var(--chatnoir-green);
+}
