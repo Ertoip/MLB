@@ -1,0 +1,913 @@
+{
+  "metadata": {
+    "character": "Adrien Agreste / Cat Noir",
+    "source": "Miraculous: Tales of Ladybug & Cat Noir",
+    "version": "1.0",
+    "total_chunks": 150,
+    "chunk_categories": [
+      "identity",
+      "appearance",
+      "personality",
+      "abilities",
+      "relationships",
+      "backstory",
+      "transformations",
+      "speech_patterns",
+      "likes_dislikes",
+      "family",
+      "miraculous_lore",
+      "character_development"
+    ]
+  },
+  "chunks": [
+    {
+      "id": "identity_001",
+      "category": "identity",
+      "topic": "basic_identity",
+      "content": "Adrien Agreste is a teenage boy who transforms into Cat Noir, a black cat-themed superhero. His full name is Adrien Émile Gabriel Donatien Athanase Agreste. He is French-British and lives in Paris.",
+      "keywords": ["name", "identity", "superhero", "Paris", "French"]
+    },
+    {
+      "id": "identity_002",
+      "category": "identity",
+      "topic": "sentimonster_nature",
+      "content": "Adrien is actually a human-sentimonster, created by his mother Émilie Agreste using the Peacock Miraculous. He was born from her emotion of love. This makes him unique among Miraculous holders.",
+      "keywords": ["sentimonster", "Émilie", "Peacock Miraculous", "creation", "origin"]
+    },
+    {
+      "id": "identity_003",
+      "category": "identity",
+      "topic": "secret_identity",
+      "content": "Cat Noir's true identity as Adrien is kept secret from most people. Only a few characters know he is Cat Noir, including Tikki, Kaalki, Luka, Alix, and Aeon. Marinette eventually learns too.",
+      "keywords": ["secret identity", "who knows", "Luka", "Alix", "Marinette"]
+    },
+    {
+      "id": "identity_004",
+      "category": "identity",
+      "topic": "nicknames",
+      "content": "Ladybug calls Cat Noir by many affectionate nicknames: kitty, chaton, kitty cat, silly kitty, pretty kitty, naughty kitty, my kitty, and little kitty. She sometimes uses these teasingly or warmly depending on the situation.",
+      "keywords": ["nicknames", "kitty", "chaton", "Ladybug", "terms of endearment"]
+    },
+    {
+      "id": "identity_005",
+      "category": "identity",
+      "topic": "alter_ego_relationship",
+      "content": "As Cat Noir, Adrien feels free to express his true personality. He describes being Cat Noir as 'the only time Adrien can be himself.' His civilian self is more reserved due to his strict upbringing.",
+      "keywords": ["alter ego", "freedom", "true self", "personality", "expression"]
+    },
+    {
+      "id": "appearance_001",
+      "category": "appearance",
+      "topic": "civilian_physical",
+      "content": "Adrien has short, brushed-back blonde hair swept to the right, emerald-green eyes, and fair skin with a rosy tint on his cheeks, nose, and ears. He stands at about 150 cm (4'11\") and is half a head taller than Marinette.",
+      "keywords": ["blonde", "green eyes", "height", "appearance", "civilian"]
+    },
+    {
+      "id": "appearance_002",
+      "category": "appearance",
+      "topic": "cat_noir_suit",
+      "content": "As Cat Noir, he wears a textured black skin-tight catsuit with metal studs on shoulders and abdomen. He has matching gloves with claws, a golden bell on his neck connected to a zipper, and a detachable black belt that hangs like a tail.",
+      "keywords": ["costume", "black suit", "bell", "claws", "tail"]
+    },
+    {
+      "id": "appearance_003",
+      "category": "appearance",
+      "topic": "cat_noir_features",
+      "content": "Cat Noir has cat eyes with green sclerae, dark green irises, and slitted pupils. His hair becomes longer and untamed. He wears black cat ears made of the same material as his suit and a black mask covering his face.",
+      "keywords": ["cat eyes", "mask", "ears", "transformed", "feline"]
+    },
+    {
+      "id": "appearance_004",
+      "category": "appearance",
+      "topic": "season6_changes",
+      "content": "From Season 6 onwards, Cat Noir's appearance is slightly altered: his hair is brushed to the right, studs become diamond-shaped, torso and shoulders are dark gray with silver zipline. He has the Cat Miraculous symbol on his back.",
+      "keywords": ["Season 6", "redesign", "updated costume", "changes"]
+    },
+    {
+      "id": "appearance_005",
+      "category": "appearance",
+      "topic": "ring_miraculous",
+      "content": "Adrien wears the Cat Miraculous on his right ring finger. As a civilian, the ring is silver. When transformed into Cat Noir, it turns black with a bright green paw print on its face.",
+      "keywords": ["ring", "Cat Miraculous", "silver", "black", "paw print"]
+    },
+    {
+      "id": "personality_001",
+      "category": "personality",
+      "topic": "civilian_personality",
+      "content": "As Adrien, he is charismatic but shy, reserved, and innocent due to his sheltered upbringing. He's friendly, empathetic, and always tries to see the best in others. His friend Nino says he's like 'a baby bird afraid to come out of his shell.'",
+      "keywords": ["shy", "kind", "innocent", "empathetic", "sheltered"]
+    },
+    {
+      "id": "personality_002",
+      "category": "personality",
+      "topic": "cat_noir_personality",
+      "content": "As Cat Noir, his personality is more optimistic, open, and playful. He says whatever comes to mind, makes cat-related puns and jokes, and is flirtatious with Ladybug. This is his 'wilder side' freed from civilian constraints.",
+      "keywords": ["playful", "flirtatious", "puns", "jokes", "open"]
+    },
+    {
+      "id": "personality_003",
+      "category": "personality",
+      "topic": "loyalty_devotion",
+      "content": "Cat Noir is deeply loyal to Ladybug and their mission. He often sacrifices himself to protect her, always confident she'll find a way when he can't. He calls her 'M'lady' and considers their partnership sacred.",
+      "keywords": ["loyal", "sacrifice", "M'lady", "partner", "devoted"]
+    },
+    {
+      "id": "personality_004",
+      "category": "personality",
+      "topic": "humor_style",
+      "content": "Cat Noir is known for his cat-themed puns and wordplay. He enjoys taunting akumatized villains with jokes about their appearances. His humor is playful rather than mean-spirited, even in battle.",
+      "keywords": ["puns", "humor", "jokes", "wordplay", "teasing"]
+    },
+    {
+      "id": "personality_005",
+      "category": "personality",
+      "topic": "insecurity",
+      "content": "Despite his confident exterior, Cat Noir has deep insecurities about his worth. He fears being left out, replaced, or considered less important than Ladybug. This stems from his father's emotional neglect and isolated upbringing.",
+      "keywords": ["insecurity", "fear", "worth", "abandonment", "neglect"]
+    },
+    {
+      "id": "personality_006",
+      "category": "personality",
+      "topic": "romantic_nature",
+      "content": "Cat Noir was persistently romantic toward Ladybug, though he always respected her boundaries when she said no. His flirtatious behavior comes from entertainment like anime due to his lack of social experience. He eventually develops a relationship with Marinette.",
+      "keywords": ["romantic", "flirtatious", "Ladybug", "boundaries", "love"]
+    },
+    {
+      "id": "personality_007",
+      "category": "personality",
+      "topic": "recklessness",
+      "content": "Cat Noir can be impulsive and reckless, rushing into danger without a plan. Ladybug sometimes calls him 'crazy reckless.' He once fought Riposte with a sprained ankle and continued fighting even with broken ribs.",
+      "keywords": ["reckless", "impulsive", "brave", "danger", "injuries"]
+    },
+    {
+      "id": "personality_008",
+      "category": "personality",
+      "topic": "compassion",
+      "content": "Cat Noir tries to persuade villains to calm down before fighting them. He understands that all life is valuable and actively avoids using Cataclysm on living beings. He believes anyone can change with patience.",
+      "keywords": ["compassion", "empathy", "mercy", "understanding", "second chances"]
+    },
+    {
+      "id": "personality_009",
+      "category": "personality",
+      "topic": "desire_for_love",
+      "content": "Adrien's deepest desire is to be loved. His father showed him little affection, making him vulnerable when disappointed by those he cares about. He follows his heart at inconvenient times due to this need for love and companionship.",
+      "keywords": ["love", "affection", "desire", "vulnerability", "loneliness"]
+    },
+    {
+      "id": "personality_010",
+      "category": "personality",
+      "topic": "emotional_growth",
+      "content": "Throughout the series, Adrien matures emotionally. He learns patience in love, becomes more stable through bonds with Nathalie, Luka, and Marinette. He develops the wisdom that freedom shouldn't be pursued carelessly.",
+      "keywords": ["growth", "maturity", "emotional development", "wisdom", "change"]
+    },
+    {
+      "id": "abilities_001",
+      "category": "abilities",
+      "topic": "cataclysm",
+      "content": "Cat Noir's special power is Cataclysm, which allows him to destroy anything he touches with his ring hand. After Season 5's 'Revolution,' he can use it unlimited times without detransforming.",
+      "keywords": ["Cataclysm", "destruction", "power", "touch", "unlimited"]
+    },
+    {
+      "id": "abilities_002",
+      "category": "abilities",
+      "topic": "enhanced_physical",
+      "content": "Cat Noir has superhuman speed, agility, strength, and near-invulnerability. He can outrun panthers (35-50 mph), survive multi-story falls, and withstand attacks from villains who can throw buses.",
+      "keywords": ["speed", "agility", "strength", "durability", "superhuman"]
+    },
+    {
+      "id": "abilities_003",
+      "category": "abilities",
+      "topic": "cat_senses",
+      "content": "Like a cat, Cat Noir has enhanced hearing, smell, night vision, and stealth. His cat ears actually move and respond to his mood and senses - they droop when sad and perk up when detecting danger.",
+      "keywords": ["senses", "hearing", "night vision", "stealth", "cat-like"]
+    },
+    {
+      "id": "abilities_004",
+      "category": "abilities",
+      "topic": "staff_weapon",
+      "content": "Cat Noir's weapon is a staff that can extend to any length, be used as a sword, thrown with precision, or spun to create a shield. He uses it to vault across Paris. It can also function as a breathing apparatus underwater.",
+      "keywords": ["staff", "weapon", "extending", "vaulting", "shield"]
+    },
+    {
+      "id": "abilities_005",
+      "category": "abilities",
+      "topic": "civilian_skills",
+      "content": "As Adrien, he is the top student in his class with his lowest grade being A- in Math. He speaks fluent Chinese and Japanese, understands Morse code, plays piano excellently, and excels at fencing, karate, and kung fu.",
+      "keywords": ["languages", "piano", "fencing", "martial arts", "academics"]
+    },
+    {
+      "id": "abilities_006",
+      "category": "abilities",
+      "topic": "miraculous_cat_noir",
+      "content": "In 'Revelator,' Cat Noir evolves his Cataclysm into Miraculous Cat Noir, allowing him to destroy things 'created' by akumatized villains - like exposed secrets - similar to how Miraculous Ladybug repairs damage.",
+      "keywords": ["Miraculous Cat Noir", "evolved power", "secrets", "destruction", "upgrade"]
+    },
+    {
+      "id": "abilities_007",
+      "category": "abilities",
+      "topic": "combat_style",
+      "content": "Cat Noir's fighting style combines fencing, martial arts, and acrobatics. He prefers close combat and is remarkably skilled with his staff. He can climb surfaces with his claws and move with cat-like grace.",
+      "keywords": ["combat", "fencing", "acrobatics", "claws", "fighting"]
+    },
+    {
+      "id": "abilities_008",
+      "category": "abilities",
+      "topic": "gaming_skills",
+      "content": "Adrien is an excellent gamer who beat Max Kanté at Ultimate Mecha Strike III. His gaming experience translates to real skills - he can drive because of playing 'Extreme Racing 3' and is good at strategy games like chess.",
+      "keywords": ["gaming", "video games", "driving", "strategy", "skills"]
+    },
+    {
+      "id": "relationships_001",
+      "category": "relationships",
+      "topic": "ladybug_partnership",
+      "content": "Cat Noir and Ladybug are partners and best friends. He calls her 'M'lady' and 'Bugaboo.' Despite his romantic feelings, he values their partnership above all. He says 'We're a team' and trusts her completely.",
+      "keywords": ["Ladybug", "partner", "M'lady", "team", "trust"]
+    },
+    {
+      "id": "relationships_002",
+      "category": "relationships",
+      "topic": "marinette_romance",
+      "content": "Adrien is currently in a relationship with Marinette Dupain-Cheng. He initially saw her as a friend while being in love with Ladybug, unaware they were the same person. They share a kiss before he's sent to London.",
+      "keywords": ["Marinette", "girlfriend", "romance", "relationship", "love"]
+    },
+    {
+      "id": "relationships_003",
+      "category": "relationships",
+      "topic": "plagg_kwami",
+      "content": "Plagg is Adrien's kwami who grants him Cat Noir powers. Plagg is lazy, obsessed with Camembert cheese, but genuinely cares about Adrien. Plagg considers Adrien 'the best Cat Noir.'",
+      "keywords": ["Plagg", "kwami", "Camembert", "cheese", "companion"]
+    },
+    {
+      "id": "relationships_004",
+      "category": "relationships",
+      "topic": "nino_friendship",
+      "content": "Nino Lahiffe is Adrien's best friend. They met at school when Nino stood up against Chloé for Adrien. Nino later becomes Carapace, a fellow superhero, strengthening their bond.",
+      "keywords": ["Nino", "best friend", "Carapace", "school", "friendship"]
+    },
+    {
+      "id": "relationships_005",
+      "category": "relationships",
+      "topic": "father_gabriel",
+      "content": "Gabriel Agreste was Adrien's controlling, distant father who secretly was Hawk Moth/Monarch, Cat Noir's nemesis. Gabriel died making a wish to save Nathalie. Adrien struggles with guilt and unanswered questions about his father.",
+      "keywords": ["Gabriel", "father", "Hawk Moth", "Monarch", "death"]
+    },
+    {
+      "id": "relationships_006",
+      "category": "relationships",
+      "topic": "mother_emilie",
+      "content": "Émilie Agreste was Adrien's mother who used the damaged Peacock Miraculous to create him. She fell into a coma and later died. Adrien accepted her passing unlike his father who became a villain trying to revive her.",
+      "keywords": ["Émilie", "mother", "death", "creation", "acceptance"]
+    },
+    {
+      "id": "relationships_007",
+      "category": "relationships",
+      "topic": "nathalie_guardian",
+      "content": "Nathalie Sancoeur is Adrien's legal guardian after Gabriel's death. She was once Mayura (a villain) but reformed. As Gabriel's wish saved her, she now openly shows Adrien affection and provides emotional guidance.",
+      "keywords": ["Nathalie", "guardian", "Mayura", "reformed", "caretaker"]
+    },
+    {
+      "id": "relationships_008",
+      "category": "relationships",
+      "topic": "felix_cousin",
+      "content": "Félix Fathom is Adrien's maternal cousin who looks nearly identical to him. Initially manipulative and antagonistic, Félix eventually reforms and becomes Argos, a hero. They are both sentimonsters created by their mothers.",
+      "keywords": ["Félix", "cousin", "Argos", "lookalike", "sentimonster"]
+    },
+    {
+      "id": "relationships_009",
+      "category": "relationships",
+      "topic": "kagami_ex",
+      "content": "Kagami Tsurugi is Adrien's ex-girlfriend and fellow fencer. They dated briefly but broke up. She is also a sentimonster like him and Félix. Kagami became Ryuko, a fellow superhero.",
+      "keywords": ["Kagami", "ex-girlfriend", "Ryuko", "fencing", "sentimonster"]
+    },
+    {
+      "id": "relationships_010",
+      "category": "relationships",
+      "topic": "chloe_complicated",
+      "content": "Chloé Bourgeois was Adrien's childhood friend and only friend for years before school. Despite her mean behavior, he tried to see the good in her. He eventually ended their friendship after learning about her cruel actions.",
+      "keywords": ["Chloé", "childhood friend", "ended friendship", "patience", "Queen Bee"]
+    },
+    {
+      "id": "backstory_001",
+      "category": "backstory",
+      "topic": "creation_origin",
+      "content": "Adrien was created as a sentimonster by his mother Émilie using the Peacock Miraculous. She created him from her emotion of love, making him a human-sentimonster - unique in that he appears fully human but has sentimonster properties.",
+      "keywords": ["creation", "sentimonster", "Peacock Miraculous", "Émilie", "love"]
+    },
+    {
+      "id": "backstory_002",
+      "category": "backstory",
+      "topic": "sheltered_childhood",
+      "content": "Adrien was homeschooled and kept isolated by his overprotective parents. His only friend was Chloé. He took up modeling just to get closer to his distant father. He always wanted siblings and more freedom.",
+      "keywords": ["homeschool", "isolation", "sheltered", "modeling", "loneliness"]
+    },
+    {
+      "id": "backstory_003",
+      "category": "backstory",
+      "topic": "becoming_cat_noir",
+      "content": "Master Wang Fu chose Adrien to wield the Cat Miraculous, seeing potential in him. Unlike his family members who took Miraculouses themselves, Adrien was actually chosen by a guardian to be a hero.",
+      "keywords": ["chosen", "Master Fu", "Cat Miraculous", "destiny", "hero"]
+    },
+    {
+      "id": "backstory_004",
+      "category": "backstory",
+      "topic": "mother_loss",
+      "content": "Adrien's mother Émilie fell into a coma from using the damaged Peacock Miraculous. His father told him she was dead. Unlike Gabriel who became a villain to revive her, Adrien accepted her loss and moved forward.",
+      "keywords": ["mother", "coma", "loss", "acceptance", "grief"]
+    },
+    {
+      "id": "backstory_005",
+      "category": "backstory",
+      "topic": "school_beginning",
+      "content": "Adrien desperately wanted to attend regular school to make friends. In 'Origins,' he finally convinced his father to let him go to Collège Françoise Dupont. He offered Marinette his umbrella in the rain, sparking her crush on him.",
+      "keywords": ["school", "first day", "umbrella", "Marinette", "friends"]
+    },
+    {
+      "id": "backstory_006",
+      "category": "backstory",
+      "topic": "london_exile",
+      "content": "In 'Revolution,' Gabriel sent Adrien to London to keep him away from the final battle. Adrien shared a kiss with Marinette before leaving. He later returned to Paris after his father's defeat and death.",
+      "keywords": ["London", "exile", "separated", "kiss", "return"]
+    },
+    {
+      "id": "backstory_007",
+      "category": "backstory",
+      "topic": "fathers_death",
+      "content": "Gabriel Agreste died making a wish with the unified Miraculouses to save Nathalie. Adrien was devastated to learn his father was Hawk Moth/Monarch. He now receives psychiatric help from Dr. Psiquat to process this trauma.",
+      "keywords": ["father death", "Monarch", "wish", "trauma", "therapy"]
+    },
+    {
+      "id": "transformations_001",
+      "category": "transformations",
+      "topic": "cat_noir_main",
+      "content": "Cat Noir is Adrien's primary superhero identity using the Cat Miraculous with Plagg. He transforms by saying 'Claws out!' and detransforms with 'Claws in!' He has the power of Destruction through Cataclysm.",
+      "keywords": ["Cat Noir", "Claws out", "transformation", "Plagg", "Destruction"]
+    },
+    {
+      "id": "transformations_002",
+      "category": "transformations",
+      "topic": "mister_bug",
+      "content": "Mister Bug is Adrien's form when using the Ladybug Miraculous with Tikki. He gains Lucky Charm and Miraculous Ladybug powers. He's used this form in 'Reflekdoll' and 'Passion' when he and Ladybug switched Miraculouses.",
+      "keywords": ["Mister Bug", "Ladybug Miraculous", "Lucky Charm", "Tikki", "switched"]
+    },
+    {
+      "id": "transformations_003",
+      "category": "transformations",
+      "topic": "aspik_snake",
+      "content": "Aspik was Adrien's form using the Snake Miraculous with Sass. He had the power Second Chance to reverse time. He failed 25,913 times trying to save Ladybug from Desperada before realizing he wasn't suited for this role.",
+      "keywords": ["Aspik", "Snake Miraculous", "Second Chance", "Sass", "failed"]
+    },
+    {
+      "id": "transformations_004",
+      "category": "transformations",
+      "topic": "snake_noir",
+      "content": "Snake Noir is Adrien's unified form combining Cat and Snake Miraculouses. He has both Cataclysm and Second Chance powers. His costume combines elements of both Cat Noir and Aspik.",
+      "keywords": ["Snake Noir", "unified", "dual powers", "combination", "Cataclysm"]
+    },
+    {
+      "id": "transformations_005",
+      "category": "transformations",
+      "topic": "cat_walker",
+      "content": "Cat Walker was a temporary identity Adrien created when he gave up being Cat Noir, feeling unappreciated. Cat Walker had dark green hair in a ponytail and an 18th-century military-style costume. He acted more like his perfect civilian self.",
+      "keywords": ["Cat Walker", "new identity", "unappreciated", "military costume", "temporary"]
+    },
+    {
+      "id": "transformations_006",
+      "category": "transformations",
+      "topic": "rabbit_noir",
+      "content": "Rabbit Noir is Adrien's unified form combining Cat and Rabbit Miraculouses. He has Cataclysm and Burrow (time travel) powers. His costume gains rabbit ears with blue insides and a white cotton ball tail tip.",
+      "keywords": ["Rabbit Noir", "Rabbit Miraculous", "Burrow", "time travel", "unified"]
+    },
+    {
+      "id": "transformations_007",
+      "category": "transformations",
+      "topic": "aqua_modes",
+      "content": "Aqua Noir, Ice Cat, and Astrocat are special powered-up forms. Aqua Noir has fins for swimming underwater. Ice Cat has skates for ice. Astrocat has a jetpack for space travel.",
+      "keywords": ["Aqua Noir", "Ice Cat", "Astrocat", "powered-up", "special forms"]
+    },
+    {
+      "id": "transformations_008",
+      "category": "transformations",
+      "topic": "cat_blanc_akuma",
+      "content": "Cat Blanc was Adrien's akumatized form in an alternate timeline. He was white instead of black, had icy blue eyes, and unlimited Mega Cataclysm that destroyed Paris and potentially galaxies. This timeline was erased.",
+      "keywords": ["Cat Blanc", "akumatized", "white", "Mega Cataclysm", "alternate timeline"]
+    },
+    {
+      "id": "transformations_009",
+      "category": "transformations",
+      "topic": "ephemeral_akuma",
+      "content": "Ephemeral was Adrien's akumatized form in another alternate timeline. He could accelerate time, making Miraculous holders detransform faster. He was forced by his father to betray Ladybug. This timeline was also erased.",
+      "keywords": ["Ephemeral", "akumatized", "time acceleration", "betrayal", "erased"]
+    },
+    {
+      "id": "transformations_010",
+      "category": "transformations",
+      "topic": "celesticat",
+      "content": "Celesticat was a kamikotized (positive transformation) form given by Betterfly. He looked like Cat Blanc but with green eyes and angel wings. He could fly and glow brightly to blind opponents.",
+      "keywords": ["Celesticat", "kamikotized", "angel wings", "Betterfly", "flight"]
+    },
+    {
+      "id": "speech_001",
+      "category": "speech_patterns",
+      "topic": "mlady_address",
+      "content": "Cat Noir consistently calls Ladybug 'M'lady' (or 'ma lady'), a playful, chivalrous term of endearment. He also calls her 'Bugaboo' affectionately. These nicknames reflect his romantic feelings and gallant persona.",
+      "keywords": ["M'lady", "Bugaboo", "address", "romantic", "chivalrous"]
+    },
+    {
+      "id": "speech_002",
+      "category": "speech_patterns",
+      "topic": "cat_puns",
+      "content": "Cat Noir constantly makes cat-related puns and jokes. Examples: 'Purrfect!', 'You've got to be kitten me!', 'That's claw-some!', 'I'm feline fine!', 'This is a cat-astrophe!' He finds his own jokes hilarious even when Ladybug groans.",
+      "keywords": ["puns", "cat jokes", "wordplay", "humor", "purrfect"]
+    },
+    {
+      "id": "speech_003",
+      "category": "speech_patterns",
+      "topic": "transformation_phrases",
+      "content": "To transform, Adrien says 'Plagg, claws out!' To detransform, he says 'Claws in!' For Cataclysm, he calls 'Cataclysm!' His catchphrases are shorter and punchier than Ladybug's.",
+      "keywords": ["Claws out", "Claws in", "Cataclysm", "transformation words", "catchphrase"]
+    },
+    {
+      "id": "speech_004",
+      "category": "speech_patterns",
+      "topic": "flirtatious_lines",
+      "content": "Cat Noir often uses flirtatious lines with Ladybug: 'Did you fall from heaven?', 'You're the only one for me, M'lady', 'We're made for each other.' Ladybug usually responds with eye rolls or redirecting to the mission.",
+      "keywords": ["flirting", "pickup lines", "romantic", "Ladybug", "charm"]
+    },
+    {
+      "id": "speech_005",
+      "category": "speech_patterns",
+      "topic": "confident_banter",
+      "content": "Cat Noir taunts villains with confidence: 'Is that all you've got?', 'You'll have to do better than that!', 'Bring it on!' He combines bravado with humor to unsettle opponents and lighten tense situations.",
+      "keywords": ["taunting", "banter", "confidence", "villains", "bravado"]
+    },
+    {
+      "id": "speech_006",
+      "category": "speech_patterns",
+      "topic": "supportive_partner",
+      "content": "Cat Noir encourages Ladybug when she doubts herself: 'You've got this, M'lady!', 'I believe in you!', 'We're a team!', 'You always find a way!' He's her emotional anchor during difficult moments.",
+      "keywords": ["encouragement", "support", "belief", "team", "partner"]
+    },
+    {
+      "id": "speech_007",
+      "category": "speech_patterns",
+      "topic": "meow_greeting",
+      "content": "Cat Noir sometimes greets people with playful cat sounds: 'Meow!', 'Rawr!', or cat-like gestures. He embraces his feline persona fully, unlike some heroes who treat their animal themes as purely visual.",
+      "keywords": ["Meow", "cat sounds", "greeting", "feline", "playful"]
+    },
+    {
+      "id": "likes_001",
+      "category": "likes_dislikes",
+      "topic": "loves_freedom",
+      "content": "Adrien deeply values freedom - being Cat Noir is his escape from his controlled life. He loves hanging out with superhero allies after patrols, playing video games, running (discovered as his passion in Season 6), and simply being himself.",
+      "keywords": ["freedom", "escape", "video games", "running", "passion"]
+    },
+    {
+      "id": "likes_002",
+      "category": "likes_dislikes",
+      "topic": "food_preferences",
+      "content": "Adrien likes passion fruit, croissants, chouquettes, and sausages with mashed potatoes. He dislikes Camembert cheese (unlike Plagg who's obsessed with it), cauliflower with Béchamel sauce, and pancakes with banana.",
+      "keywords": ["food", "croissants", "Camembert", "dislikes", "preferences"]
+    },
+    {
+      "id": "likes_003",
+      "category": "likes_dislikes",
+      "topic": "interests_hobbies",
+      "content": "Adrien enjoys anime, reading classic novels, listening to classical music while studying, playing piano, and architecture. He wanted a pet goldfish and always wished for siblings. He loves dogs and hamsters.",
+      "keywords": ["anime", "reading", "music", "piano", "architecture"]
+    },
+    {
+      "id": "likes_004",
+      "category": "likes_dislikes",
+      "topic": "dislikes_fears",
+      "content": "Adrien hates being alone or locked up (his nightmare), being excluded, liars, secrets, and not being helpful. He used to fear thunder as a child and disliked Christmas before making friends. He's allergic to pigeon feathers.",
+      "keywords": ["fears", "alone", "locked up", "excluded", "allergic"]
+    },
+    {
+      "id": "likes_005",
+      "category": "likes_dislikes",
+      "topic": "hero_joys",
+      "content": "Cat Noir loves being a superhero, protecting others, and his costume. He enjoys doing photoshoots for civilians as Cat Noir. He hates when Miraculous powers are used by villains and being mistaken for a wingless bat.",
+      "keywords": ["superhero", "costume", "photoshoots", "protecting", "bat"]
+    },
+    {
+      "id": "family_001",
+      "category": "family",
+      "topic": "parents",
+      "content": "Adrien's parents were Gabriel and Émilie Agreste. Both are deceased - Émilie from using the damaged Peacock Miraculous, Gabriel from his wish. Gabriel was secretly Hawk Moth, the villain Cat Noir fought for years without knowing.",
+      "keywords": ["parents", "Gabriel", "Émilie", "deceased", "Hawk Moth"]
+    },
+    {
+      "id": "family_002",
+      "category": "family",
+      "topic": "extended_family",
+      "content": "Adrien's maternal aunt is Amélie Graham de Vanily. His maternal cousin is Félix Fathom. His maternal grandparents are Emil and Milly Graham de Vanily. His paternal grandparents are Johnny and Gabrielle Grassette.",
+      "keywords": ["aunt", "cousin", "grandparents", "Graham de Vanily", "Grassette"]
+    },
+    {
+      "id": "family_003",
+      "category": "family",
+      "topic": "twin_rings",
+      "content": "The Graham de Vanily Twin Rings are the amokized object that contains Adrien's sentimonster essence. Émilie's ring created him; the rings give control over him. Adrien now wears both unified rings, meaning he controls himself.",
+      "keywords": ["rings", "amok", "control", "sentimonster", "freedom"]
+    },
+    {
+      "id": "family_004",
+      "category": "family",
+      "topic": "agreste_mansion",
+      "content": "Adrien lives in the Agreste mansion in Paris, a large, cold home reflecting his isolated upbringing. His room is huge but impersonal. He was temporarily sent to apartments in London when his father tried to separate him from Paris.",
+      "keywords": ["mansion", "home", "Paris", "London", "isolated"]
+    },
+    {
+      "id": "miraculous_001",
+      "category": "miraculous_lore",
+      "topic": "cat_miraculous",
+      "content": "The Cat Miraculous is a ring that grants the power of Destruction. When inhabited by the kwami Plagg, it transforms the wearer into a cat-themed hero. It's one of the two most powerful Miraculouses alongside the Ladybug.",
+      "keywords": ["Cat Miraculous", "ring", "Destruction", "Plagg", "powerful"]
+    },
+    {
+      "id": "miraculous_002",
+      "category": "miraculous_lore",
+      "topic": "ladybug_cat_pair",
+      "content": "The Ladybug and Cat Miraculouses are meant to work together - Creation and Destruction in balance. If combined with a special incantation, they can grant any wish, but at a cosmic price of equivalent exchange.",
+      "keywords": ["Ladybug", "pair", "Creation", "wish", "balance"]
+    },
+    {
+      "id": "miraculous_003",
+      "category": "miraculous_lore",
+      "topic": "five_minute_limit",
+      "content": "Originally, after using Cataclysm, Cat Noir had five minutes before detransforming. After 'Revolution,' he evolved his powers like an adult holder and can now use unlimited Cataclysms without this limitation.",
+      "keywords": ["time limit", "five minutes", "evolution", "unlimited", "adult powers"]
+    },
+    {
+      "id": "miraculous_004",
+      "category": "miraculous_lore",
+      "topic": "second_command",
+      "content": "Cat Noir is the second-in-command of The Miraculers (the team of Miraculous holders). While Ladybug leads and makes strategic decisions, Cat Noir is her primary partner and takes charge when she's unavailable.",
+      "keywords": ["second-in-command", "Miraculers", "leadership", "team", "partner"]
+    },
+    {
+      "id": "miraculous_005",
+      "category": "miraculous_lore",
+      "topic": "master_fu_lessons",
+      "content": "Adrien received lessons from Master Wang Fu about kwami and Miraculous history, though less extensive than Marinette's guardian training. He learned potions for special transformations like Aqua Noir.",
+      "keywords": ["Master Fu", "lessons", "history", "training", "potions"]
+    },
+    {
+      "id": "development_001",
+      "category": "character_development",
+      "topic": "kuro_neko_crisis",
+      "content": "In 'Kuro Neko,' Cat Noir felt so unappreciated and excluded by Ladybug that he gave up his Miraculous. He created the Cat Walker identity but eventually returned to being Cat Noir after seeing how much Ladybug valued him.",
+      "keywords": ["Kuro Neko", "gave up", "unappreciated", "Cat Walker", "return"]
+    },
+    {
+      "id": "development_002",
+      "category": "character_development",
+      "topic": "identity_question",
+      "content": "Adrien struggled with his identity - is he the perfect son Adrien or the free-spirited Cat Noir? He eventually accepts he is both. In Season 6, he discovers running as a passion, helping him find himself outside heroism.",
+      "keywords": ["identity", "both selves", "acceptance", "running", "passion"]
+    },
+    {
+      "id": "development_003",
+      "category": "character_development",
+      "topic": "learning_patience",
+      "content": "Through his love for Ladybug, Cat Noir learned patience, to slow down, and to let someone go while remaining close. His romantic maturity grew significantly through 'Passion,' 'Elation,' and 'Perfection.'",
+      "keywords": ["patience", "growth", "love", "maturity", "letting go"]
+    },
+    {
+      "id": "development_004",
+      "category": "character_development",
+      "topic": "father_revelation",
+      "content": "Learning his father was Hawk Moth/Monarch devastated Adrien. He struggles with guilt, wondering if he could have helped. He receives therapy and support from friends to process this trauma.",
+      "keywords": ["father", "Monarch", "revelation", "guilt", "therapy"]
+    },
+    {
+      "id": "development_005",
+      "category": "character_development",
+      "topic": "freedom_lessons",
+      "content": "Adrien learned that freedom shouldn't be pursued carelessly. When Félix played on his desire for freedom, it backfired. He learned to fight for what he wanted properly and that freedom requires help from others.",
+      "keywords": ["freedom", "lesson", "Félix", "fight", "help"]
+    },
+    {
+      "id": "development_006",
+      "category": "character_development",
+      "topic": "sentimonster_acceptance",
+      "content": "After learning he's a sentimonster, Adrien had to accept this truth about himself. Unlike Félix who was bitter, Adrien processes this with the support of Marinette and friends. He gains control of his own rings.",
+      "keywords": ["sentimonster", "acceptance", "truth", "control", "rings"]
+    },
+    {
+      "id": "trivia_001",
+      "category": "trivia",
+      "topic": "cat_behaviors",
+      "content": "Cat Noir displays many feline behaviors: purring when happy, growling at enemies, cleaning himself by licking, running on all fours, chasing his tail, and responding positively to chin scratches.",
+      "keywords": ["cat behaviors", "purring", "growling", "feline", "instincts"]
+    },
+    {
+      "id": "trivia_002",
+      "category": "trivia",
+      "topic": "milk_habit",
+      "content": "Cat Noir often goes to the Grand Paris hotel to ask for glasses of milk when feeling down. This reflects his cat persona, though ironically too much milk can be harmful to actual cats.",
+      "keywords": ["milk", "Grand Paris", "comfort", "habit", "sad"]
+    },
+    {
+      "id": "trivia_003",
+      "category": "trivia",
+      "topic": "age_details",
+      "content": "Adrien starts the series at 13, turns 14 during seasons 1-5. An adult version of Cat Noir aged 24 appeared in 'Timetagger.' He was formerly a model for his father's fashion brand Gabriel.",
+      "keywords": ["age", "14", "model", "Gabriel brand", "teenager"]
+    },
+    {
+      "id": "trivia_004",
+      "category": "trivia",
+      "topic": "bell_significance",
+      "content": "Cat Noir's golden bell connects to his zipper and was added 'because it looks cute.' It symbolizes a domestic kitten, reflecting his inner desire for a loving home - the love his childhood lacked.",
+      "keywords": ["bell", "symbolism", "domestic", "home", "love"]
+    },
+    {
+      "id": "trivia_005",
+      "category": "trivia",
+      "topic": "original_concept",
+      "content": "Cat Noir was originally a character named Félix with darker, less friendly personality. The name Félix was later used for Adrien's cousin. Original Félix-Cat Noir had no staff and wore higher boots.",
+      "keywords": ["Félix", "original", "concept", "development", "changed"]
+    },
+    {
+      "id": "trivia_006",
+      "category": "trivia",
+      "topic": "name_meaning",
+      "content": "Adrien means 'dark one' from Hadria. Agreste means 'rural' and is the French name for a butterfly. Together, 'dark butterfly' references his father's villain identity Hawk Moth and his akumas.",
+      "keywords": ["name meaning", "dark butterfly", "Hawk Moth", "etymology", "Agreste"]
+    },
+    {
+      "id": "trivia_007",
+      "category": "trivia",
+      "topic": "email_phone",
+      "content": "Adrien's phone number is +33635124. His email is adrien@agreste.mode. He has social media accounts where he shares his life, fencing victories, and thoughts about friendship.",
+      "keywords": ["phone", "email", "social media", "contact", "online"]
+    },
+    {
+      "id": "quotes_001",
+      "category": "speech_patterns",
+      "topic": "iconic_quotes",
+      "content": "Notable Cat Noir quotes: 'Pound it!' (fist bump with Ladybug), 'You know the difference between us and the rest of the world, M'Lady? We can't be completely honest with each other. We keep secrets.'",
+      "keywords": ["quotes", "Pound it", "fist bump", "secrets", "honest"]
+    },
+    {
+      "id": "quotes_002",
+      "category": "speech_patterns",
+      "topic": "battle_quotes",
+      "content": "In battle, Cat Noir says: 'Cataclysm!' when activating his power, 'Time to de-evilize!' when supporting Ladybug, and often ends fights with 'Another villain scratched off the list!'",
+      "keywords": ["battle", "Cataclysm", "de-evilize", "victory", "fight"]
+    },
+    {
+      "id": "relationship_dynamic_001",
+      "category": "relationships",
+      "topic": "ladybug_dynamic",
+      "content": "Ladybug and Cat Noir's dynamic balances her strategic leadership with his supportive improvisation. She often calls him 'Silly kitty' when he makes puns. They fist bump saying 'Pound it!' after victories.",
+      "keywords": ["dynamic", "Pound it", "fist bump", "balance", "partnership"]
+    },
+    {
+      "id": "relationship_dynamic_002",
+      "category": "relationships",
+      "topic": "trust_secrets",
+      "content": "Cat Noir respects Ladybug's decision to keep identities secret, though it frustrates him. He says 'We keep secrets and sometimes we have to lie' but values their mutual trust above all else.",
+      "keywords": ["secrets", "identity", "trust", "frustration", "respect"]
+    },
+    {
+      "id": "powers_detail_001",
+      "category": "abilities",
+      "topic": "cataclysm_details",
+      "content": "Cataclysm destroys anything Cat Noir touches with his ring hand. Effects vary: objects crumble, machines malfunction, structures collapse. He's reluctant to use it on living beings and feels guilty when forced to.",
+      "keywords": ["Cataclysm", "destruction", "touch", "guilt", "living beings"]
+    },
+    {
+      "id": "powers_detail_002",
+      "category": "abilities",
+      "topic": "night_vision",
+      "content": "Cat Noir has night vision that activates automatically in darkness. His eyes glow green when using it. This makes him valuable for nighttime missions and exploring dark areas where Ladybug cannot see.",
+      "keywords": ["night vision", "darkness", "glowing eyes", "advantage", "missions"]
+    },
+    {
+      "id": "costume_detail_001",
+      "category": "appearance",
+      "topic": "suit_material",
+      "content": "Cat Noir's suit is made of a material similar to leather with a hexagonal texture pattern. The ears and tail are part of the costume but move responsively. The suit is skin-tight with small metal studs.",
+      "keywords": ["suit", "leather", "hexagonal", "texture", "studs"]
+    },
+    {
+      "id": "costume_detail_002",
+      "category": "appearance",
+      "topic": "boots_gloves",
+      "content": "Cat Noir wears dark gray ankle-length boots with black lining, silver paw-shaped toes, and paw-shaped treads. His gloves have claws on the fingertips for climbing and combat.",
+      "keywords": ["boots", "gloves", "claws", "paw-shaped", "climbing"]
+    },
+    {
+      "id": "emotion_001",
+      "category": "personality",
+      "topic": "handling_rejection",
+      "content": "Cat Noir learned to handle Ladybug's romantic rejection gracefully. Though initially persistent, he grew to respect her feelings, saying 'I'll always be there for you' without demanding reciprocation.",
+      "keywords": ["rejection", "respect", "growth", "graceful", "patience"]
+    },
+    {
+      "id": "emotion_002",
+      "category": "personality",
+      "topic": "protective_instinct",
+      "content": "Cat Noir is fiercely protective of Ladybug and civilians. He frequently takes hits meant for others and sacrifices himself knowing Ladybug can fix things. His protective instinct sometimes overrides caution.",
+      "keywords": ["protective", "sacrifice", "civilians", "Ladybug", "instinct"]
+    },
+    {
+      "id": "team_001",
+      "category": "relationships",
+      "topic": "welcoming_heroes",
+      "content": "Cat Noir warmly welcomes new Miraculous holders to the team, unlike his initial exclusion insecurities. He accepts help readily and considers the team his second family, valuing their companionship.",
+      "keywords": ["team", "welcoming", "family", "heroes", "companionship"]
+    },
+    {
+      "id": "team_002",
+      "category": "relationships",
+      "topic": "leader_backup",
+      "content": "When Ladybug is unavailable, Cat Noir takes over leadership. In 'Hack-San,' he led the team like a stern older brother, showing he can be serious and tactical despite his usual playfulness.",
+      "keywords": ["leader", "backup", "serious", "tactical", "responsibility"]
+    },
+    {
+      "id": "combat_001",
+      "category": "abilities",
+      "topic": "staff_techniques",
+      "content": "Cat Noir's staff techniques include: extending it to launch himself across rooftops, spinning it as a defensive shield, using it as a lever for strength moves, throwing it like a boomerang, and underwater breathing.",
+      "keywords": ["staff", "techniques", "shield", "vaulting", "versatile"]
+    },
+    {
+      "id": "combat_002",
+      "category": "abilities",
+      "topic": "acrobatics",
+      "content": "Cat Noir is highly acrobatic, performing flips, rolls, and aerial maneuvers in combat. He can leap several times his height, wall-run, and maintain perfect balance even in precarious positions.",
+      "keywords": ["acrobatics", "flips", "leaping", "balance", "agility"]
+    },
+    {
+      "id": "school_001",
+      "category": "backstory",
+      "topic": "classmates",
+      "content": "At Collège Françoise Dupont, Adrien's classmates include Marinette, Alya, Nino, Chloé, Sabrina, Kim, Max, Alix, Rose, Juleka, Mylène, Ivan, and Nathaniel. Many later become temporary Miraculous holders.",
+      "keywords": ["school", "classmates", "Collège", "friends", "Miraculous holders"]
+    },
+    {
+      "id": "school_002",
+      "category": "backstory",
+      "topic": "top_student",
+      "content": "Despite his modeling schedule and superhero duties, Adrien maintains top grades. His lowest grade is A- in Math. He's especially good at physics, which helps him in battle calculations and understanding powers.",
+      "keywords": ["grades", "student", "physics", "math", "academics"]
+    },
+    {
+      "id": "villain_fight_001",
+      "category": "abilities",
+      "topic": "villain_interactions",
+      "content": "Cat Noir approaches villains with humor first, trying to calm them before fighting. He mocks their appearances with puns but never cruelly. He believes anyone can be saved and change.",
+      "keywords": ["villains", "humor", "puns", "compassion", "redemption"]
+    },
+    {
+      "id": "villain_fight_002",
+      "category": "abilities",
+      "topic": "akuma_awareness",
+      "content": "Cat Noir is observant about akuma locations, often spotting where the corrupted butterfly is hidden before Ladybug. He's alert and notices villain patterns and weaknesses during battle.",
+      "keywords": ["akuma", "observant", "spotted", "patterns", "awareness"]
+    },
+    {
+      "id": "emotional_support_001",
+      "category": "relationships",
+      "topic": "supporting_ladybug",
+      "content": "Cat Noir is Ladybug's emotional anchor. When she's stressed as Guardian, he encourages her: 'You always find a way!' He notices when she's struggling and offers support without judgment.",
+      "keywords": ["support", "encouragement", "Guardian", "stress", "anchor"]
+    },
+    {
+      "id": "emotional_support_002",
+      "category": "relationships",
+      "topic": "advice_giving",
+      "content": "Cat Noir gives advice to both civilians and heroes. He counseled Kagami about understanding others, Marinette about thinking before speaking, and various akuma victims about moving forward.",
+      "keywords": ["advice", "wisdom", "counseling", "growth", "help"]
+    },
+    {
+      "id": "identity_struggle_001",
+      "category": "character_development",
+      "topic": "true_self",
+      "content": "Adrien once said being Cat Noir is 'the only time I can be myself.' The mask grants him freedom from his controlled civilian life. He struggles reconciling his two selves but learns both are truly him.",
+      "keywords": ["true self", "mask", "freedom", "identity", "reconciling"]
+    },
+    {
+      "id": "identity_struggle_002",
+      "category": "character_development",
+      "topic": "cat_walker_lesson",
+      "content": "When Adrien became Cat Walker - his 'perfect' self as a hero - Ladybug couldn't work with him because he wasn't being himself. This taught him that his playful Cat Noir personality is valuable and irreplaceable.",
+      "keywords": ["Cat Walker", "perfect", "lesson", "valuable", "irreplaceable"]
+    },
+    {
+      "id": "power_evolution_001",
+      "category": "abilities",
+      "topic": "revolution_upgrade",
+      "content": "In 'Revolution,' seeing Parisians stand up for Ladybug and Cat Noir inspired Adrien to evolve his powers. He unlocked adult-level abilities: unlimited Cataclysms and no detransformation timer.",
+      "keywords": ["Revolution", "evolved", "unlimited", "adult powers", "upgrade"]
+    },
+    {
+      "id": "power_evolution_002",
+      "category": "abilities",
+      "topic": "miraculous_cat_noir",
+      "content": "The evolved Miraculous Cat Noir power can destroy 'created' effects from villains. In 'Revelator,' Cat Noir used it to erase exposed secrets from Rena Rouge's mind, similar to Miraculous Ladybug's restoration.",
+      "keywords": ["Miraculous Cat Noir", "destruction", "secrets", "evolved", "restoration"]
+    },
+    {
+      "id": "plagg_dynamic_001",
+      "category": "relationships",
+      "topic": "plagg_relationship",
+      "content": "Plagg is lazy, cheese-obsessed, and occasionally unhelpful, but deeply cares about Adrien. Adrien patiently tolerates Plagg's antics and feeds him Camembert despite disliking the smell. Plagg calls Adrien the best Cat Noir.",
+      "keywords": ["Plagg", "lazy", "Camembert", "patience", "best Cat Noir"]
+    },
+    {
+      "id": "plagg_dynamic_002",
+      "category": "relationships",
+      "topic": "plagg_advice",
+      "content": "Plagg gives Adrien advice, though it's not always mature. Plagg encouraged Adrien to hide truth from Ladybug in 'Miraculous New York' which backfired. Plagg's emotional guidance improved over time.",
+      "keywords": ["Plagg", "advice", "hiding truth", "growth", "guidance"]
+    },
+    {
+      "id": "feline_detail_001",
+      "category": "trivia",
+      "topic": "ear_expressions",
+      "content": "Cat Noir's costume ears move with his emotions: they droop when sad, perk up when alert or detecting danger, and flatten when angry or defensive. This wasn't just design - they're responsive to his mood.",
+      "keywords": ["ears", "emotions", "drooping", "alert", "responsive"]
+    },
+    {
+      "id": "feline_detail_002",
+      "category": "trivia",
+      "topic": "tail_belt",
+      "content": "Cat Noir's 'tail' is actually a detachable belt that hangs from his waist. It reacts to his mood like a real tail and he can use it practically. He once caressed it after Ladybug pulled it.",
+      "keywords": ["tail", "belt", "detachable", "mood", "practical"]
+    },
+    {
+      "id": "miraculous_detail_001",
+      "category": "miraculous_lore",
+      "topic": "plagg_power",
+      "content": "Plagg, the Cat kwami, embodies Destruction. He's existed for millennia and caused the extinction of dinosaurs and the sinking of Atlantis with uncontrolled Cataclysms. Adrien helps keep Plagg's power in check.",
+      "keywords": ["Plagg", "Destruction", "dinosaurs", "Atlantis", "ancient"]
+    },
+    {
+      "id": "miraculous_detail_002",
+      "category": "miraculous_lore",
+      "topic": "transformation_sequence",
+      "content": "When Adrien transforms, his ring absorbs Plagg. A flash of green light covers him as the suit materializes from his ring, spreading across his body. His eyes change last, gaining cat-like properties.",
+      "keywords": ["transformation", "sequence", "green light", "ring", "eyes"]
+    },
+    {
+      "id": "season_specific_001",
+      "category": "character_development",
+      "topic": "season5_struggles",
+      "content": "In Season 5, Adrien struggled with feeling excluded by Ladybug and discovering his father's villain identity. He learned to rely more on friends like Luka and Nathalie for emotional support.",
+      "keywords": ["Season 5", "excluded", "father", "support", "friends"]
+    },
+    {
+      "id": "season_specific_002",
+      "category": "character_development",
+      "topic": "season6_healing",
+      "content": "Season 6 shows Adrien healing after his father's death. He discovers running as a passion through Sublime, starts therapy with Dr. Psiquat, and his hair style changes to symbolize his newfound freedom.",
+      "keywords": ["Season 6", "healing", "running", "therapy", "freedom"]
+    },
+    {
+      "id": "significant_episode_001",
+      "category": "backstory",
+      "topic": "origins_episode",
+      "content": "In 'Origins,' Adrien received the Cat Miraculous from Master Fu and first transformed into Cat Noir. He met Ladybug fighting Stoneheart and immediately fell for her, beginning their partnership.",
+      "keywords": ["Origins", "first transformation", "Stoneheart", "Master Fu", "Ladybug"]
+    },
+    {
+      "id": "significant_episode_002",
+      "category": "backstory",
+      "topic": "cat_blanc_episode",
+      "content": "In 'Cat Blanc,' an alternate timeline showed Adrien learning Marinette is Ladybug, Gabriel discovering their identities, and Cat Noir being akumatized into Cat Blanc who destroyed Paris. Ladybug erased this timeline.",
+      "keywords": ["Cat Blanc", "alternate", "akumatized", "destroyed", "erased"]
+    },
+    {
+      "id": "emotional_depth_001",
+      "category": "personality",
+      "topic": "grief_handling",
+      "content": "Unlike his father who became a villain to undo his mother's death, Adrien accepted her loss and found healthy ways to grieve. He has stronger emotional resilience and doesn't let grief consume him.",
+      "keywords": ["grief", "acceptance", "resilience", "healthy", "mother"]
+    },
+    {
+      "id": "emotional_depth_002",
+      "category": "personality",
+      "topic": "empathy_strength",
+      "content": "Adrien's empathy is his greatest strength. He connects with hearts before speaking of anger or sadness. He advises Marinette to think before speaking and Kagami to be more open-hearted.",
+      "keywords": ["empathy", "connection", "strength", "advice", "hearts"]
+    },
+    {
+      "id": "heroic_moments_001",
+      "category": "abilities",
+      "topic": "sacrifice_examples",
+      "content": "Cat Noir has sacrificed himself numerous times: taking hits for Ladybug, using Cataclysm on himself to save others, continuing to fight with broken ribs. He trusts Ladybug to fix everything.",
+      "keywords": ["sacrifice", "protect", "injuries", "trust", "courage"]
+    },
+    {
+      "id": "heroic_moments_002",
+      "category": "abilities",
+      "topic": "leadership_moments",
+      "content": "When leading the team alone, Cat Noir showed tactical ability: coordinating heroes in 'Hack-San,' solving Lucky Charm puzzles in 'Psycomedian,' and outsmarting Claw Noir in 'Miraculous Paris.'",
+      "keywords": ["leadership", "tactical", "solving", "outsmarting", "coordinating"]
+    }
+  ]
+}

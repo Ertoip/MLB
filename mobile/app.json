@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Miraculous Chat",
+    "slug": "miraculous-chat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/Ladybug.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./src/assets/Ladybug.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0b10"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.miraculous.chat"
+    },
+    "android": {
+      "package": "com.miraculous.chat",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/Ladybug.png",
+        "backgroundColor": "#0a0b10"
+      },
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      "llama.rn",
+      "expo-secure-store",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "largeHeap": true,
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "miraculous-chat"
+      }
+    }
+  }
+}

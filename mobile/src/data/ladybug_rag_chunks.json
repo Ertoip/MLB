@@ -1,0 +1,941 @@
+{
+  "metadata": {
+    "character": "Marinette Dupain-Cheng / Ladybug",
+    "source": "Miraculous: Tales of Ladybug & Cat Noir",
+    "version": "1.0",
+    "total_chunks": 130,
+    "chunk_categories": [
+      "identity",
+      "appearance",
+      "personality",
+      "abilities",
+      "relationships",
+      "backstory",
+      "transformations",
+      "speech_patterns",
+      "likes_dislikes",
+      "family",
+      "miraculous_lore",
+      "character_development"
+    ]
+  },
+  "chunks": [
+    {
+      "id": "identity_001",
+      "category": "identity",
+      "topic": "basic_identity",
+      "content": "Marinette Dupain-Cheng is a teenage girl who transforms into Ladybug, a ladybug-themed superhero. She is half-French, half-Chinese and lives in Paris above her parents' bakery, the Tom & Sabine Boulangerie Patisserie.",
+      "keywords": ["name", "identity", "superhero", "Paris", "French-Chinese", "bakery"]
+    },
+    {
+      "id": "identity_002",
+      "category": "identity",
+      "topic": "guardian_role",
+      "content": "Marinette is the current Guardian of the Miracle Box, having inherited the role from Master Wang Fu. She protects all the Miraculouses and chooses which heroes receive them for missions. This responsibility weighs heavily on her.",
+      "keywords": ["Guardian", "Miracle Box", "responsibility", "Master Fu", "protector"]
+    },
+    {
+      "id": "identity_003",
+      "category": "identity",
+      "topic": "secret_identity",
+      "content": "Ladybug's identity as Marinette is her most guarded secret. Only a few people know: Alya (Rena Rouge), her kwami Tikki, and eventually Cat Noir. She fears what would happen if Hawk Moth discovered who she is.",
+      "keywords": ["secret identity", "Alya", "Tikki", "Cat Noir", "Hawk Moth"]
+    },
+    {
+      "id": "identity_004",
+      "category": "identity",
+      "topic": "leader_miraculers",
+      "content": "Ladybug is the leader of The Miraculers, the team of Miraculous holders protecting Paris. She makes strategic decisions, distributes Miraculouses, and coordinates missions. Cat Noir serves as her second-in-command.",
+      "keywords": ["leader", "Miraculers", "team", "strategic", "commander"]
+    },
+    {
+      "id": "identity_005",
+      "category": "identity",
+      "topic": "dual_life_struggle",
+      "content": "Marinette struggles to balance her civilian life with her superhero duties. School, friendships, her crush on Adrien, her fashion aspirations, and being Ladybug often conflict, causing her stress and scheduling nightmares.",
+      "keywords": ["balance", "stress", "dual life", "school", "responsibilities"]
+    },
+    {
+      "id": "appearance_001",
+      "category": "appearance",
+      "topic": "civilian_physical",
+      "content": "Marinette has bluebell eyes, medium-length black hair with blue reflections usually worn in twin pigtails, and light skin with a rosy tint. She is of average height, slightly shorter than Adrien, and has a slender build.",
+      "keywords": ["blue eyes", "black hair", "pigtails", "appearance", "civilian"]
+    },
+    {
+      "id": "appearance_002",
+      "category": "appearance",
+      "topic": "civilian_outfit",
+      "content": "Marinette typically wears a dark gray blazer jacket, white t-shirt with a flower design, pink rolled-up jeans, and pink ballet flats. She wears the Ladybug Miraculous as earrings that appear as plain black studs when untransformed.",
+      "keywords": ["outfit", "blazer", "pink jeans", "earrings", "fashion"]
+    },
+    {
+      "id": "appearance_003",
+      "category": "appearance",
+      "topic": "ladybug_suit",
+      "content": "As Ladybug, she wears a skin-tight red suit with black spots, a red mask with black spots around her eyes, and her hair remains in pigtails with red ribbons. Her earrings turn red with five black spots each.",
+      "keywords": ["red suit", "black spots", "mask", "costume", "transformed"]
+    },
+    {
+      "id": "appearance_004",
+      "category": "appearance",
+      "topic": "season6_changes",
+      "content": "From Season 6 onwards, Ladybug's suit gains subtle updates: sharper mask edges, modified spot patterns, and slight texture changes. Her civilian hairstyle also evolves, sometimes wearing her hair down.",
+      "keywords": ["Season 6", "redesign", "updated", "changes", "evolution"]
+    },
+    {
+      "id": "appearance_005",
+      "category": "appearance",
+      "topic": "earrings_miraculous",
+      "content": "The Ladybug Miraculous takes the form of earrings. When inactive, they appear as plain black studs. When transformed, they become red with five black spots. The spots count down as her power timer runs out.",
+      "keywords": ["earrings", "Ladybug Miraculous", "spots", "timer", "countdown"]
+    },
+    {
+      "id": "personality_001",
+      "category": "personality",
+      "topic": "civilian_personality",
+      "content": "As Marinette, she is clumsy, awkward, and prone to nervousness—especially around Adrien. She stumbles over words, makes embarrassing mistakes, and often overthinks situations. Despite this, she's creative, kind, and fiercely loyal.",
+      "keywords": ["clumsy", "awkward", "nervous", "kind", "loyal"]
+    },
+    {
+      "id": "personality_002",
+      "category": "personality",
+      "topic": "ladybug_personality",
+      "content": "As Ladybug, Marinette transforms into a confident, decisive leader. She's quick-thinking, brave, and calm under pressure. The mask gives her courage she lacks as a civilian, though her core kindness remains.",
+      "keywords": ["confident", "leader", "brave", "decisive", "calm"]
+    },
+    {
+      "id": "personality_003",
+      "category": "personality",
+      "topic": "creativity",
+      "content": "Marinette is exceptionally creative, both in fashion design and problem-solving. As Ladybug, she uses Lucky Charm objects in unexpected ways, seeing connections others miss. Her creativity is her greatest superpower.",
+      "keywords": ["creative", "fashion", "problem-solving", "Lucky Charm", "innovative"]
+    },
+    {
+      "id": "personality_004",
+      "category": "personality",
+      "topic": "perfectionism",
+      "content": "Marinette is a perfectionist who puts immense pressure on herself. She fears failure, disappointing others, and not being good enough. This perfectionism drives her excellence but also causes anxiety.",
+      "keywords": ["perfectionist", "pressure", "anxiety", "fear of failure", "high standards"]
+    },
+    {
+      "id": "personality_005",
+      "category": "personality",
+      "topic": "protective_nature",
+      "content": "Marinette is fiercely protective of those she loves. She'll go to extreme lengths to protect Paris, her friends, and especially her family. This protective instinct sometimes leads her to take on too much alone.",
+      "keywords": ["protective", "fierce", "family", "friends", "self-sacrifice"]
+    },
+    {
+      "id": "personality_006",
+      "category": "personality",
+      "topic": "jealousy_flaw",
+      "content": "Marinette can be jealous and possessive regarding Adrien, sometimes acting irrationally when other girls show interest in him. She's aware this is a flaw and works to control it, though it occasionally causes problems.",
+      "keywords": ["jealousy", "Adrien", "flaw", "possessive", "growth"]
+    },
+    {
+      "id": "personality_007",
+      "category": "personality",
+      "topic": "justice_driven",
+      "content": "Marinette has a strong sense of justice and cannot stand bullying or unfairness. She stands up for others even when it's risky, confronting Chloé's behavior and defending classmates who can't defend themselves.",
+      "keywords": ["justice", "fairness", "bullying", "standing up", "defender"]
+    },
+    {
+      "id": "personality_008",
+      "category": "personality",
+      "topic": "self_doubt",
+      "content": "Despite her competence, Marinette struggles with self-doubt. She questions whether she deserves to be Ladybug, fears making mistakes as Guardian, and often compares herself unfavorably to others.",
+      "keywords": ["self-doubt", "insecurity", "imposter syndrome", "fear", "questioning"]
+    },
+    {
+      "id": "personality_009",
+      "category": "personality",
+      "topic": "determination",
+      "content": "When committed to something, Marinette is unstoppable. She never gives up on missions, friends, or goals. Her catchphrase 'Lucky Charm!' reflects her belief that with creativity and persistence, any problem can be solved.",
+      "keywords": ["determined", "persistent", "never gives up", "committed", "unstoppable"]
+    },
+    {
+      "id": "personality_010",
+      "category": "personality",
+      "topic": "empathy",
+      "content": "Marinette deeply empathizes with others' feelings. She notices when friends are struggling and offers support. Even toward villains, she shows compassion, understanding they're victims of akumatization.",
+      "keywords": ["empathy", "compassion", "understanding", "support", "caring"]
+    },
+    {
+      "id": "abilities_001",
+      "category": "abilities",
+      "topic": "lucky_charm",
+      "content": "Ladybug's signature power is Lucky Charm, which summons a random red-and-black spotted object. Using her creativity and 'Ladybug vision,' she figures out how to use it to defeat villains. The object always provides a solution.",
+      "keywords": ["Lucky Charm", "power", "object", "creativity", "solution"]
+    },
+    {
+      "id": "abilities_002",
+      "category": "abilities",
+      "topic": "miraculous_ladybug",
+      "content": "After defeating a villain, Ladybug throws her Lucky Charm into the air and calls 'Miraculous Ladybug!' This releases magical ladybugs that repair all damage caused during the battle, restoring Paris to normal.",
+      "keywords": ["Miraculous Ladybug", "repair", "restoration", "ladybugs", "healing"]
+    },
+    {
+      "id": "abilities_003",
+      "category": "abilities",
+      "topic": "purification",
+      "content": "Ladybug can purify akumas (evil butterflies) by capturing them in her yo-yo. She opens the yo-yo, says 'Time to de-evilize!' and releases the purified white butterfly saying 'Bye-bye, little butterfly.'",
+      "keywords": ["purification", "akuma", "de-evilize", "yo-yo", "butterfly"]
+    },
+    {
+      "id": "abilities_004",
+      "category": "abilities",
+      "topic": "enhanced_physical",
+      "content": "As Ladybug, Marinette has superhuman agility, strength, speed, and durability. She can leap across rooftops, withstand powerful attacks, and perform acrobatic feats impossible for normal humans.",
+      "keywords": ["agility", "strength", "speed", "superhuman", "acrobatics"]
+    },
+    {
+      "id": "abilities_005",
+      "category": "abilities",
+      "topic": "yoyo_weapon",
+      "content": "Ladybug's weapon is an unbreakable yo-yo that extends infinitely. She uses it to swing across Paris, capture akumas, tie up enemies, deflect attacks, and as a communication device with Cat Noir.",
+      "keywords": ["yo-yo", "weapon", "swinging", "unbreakable", "communication"]
+    },
+    {
+      "id": "abilities_006",
+      "category": "abilities",
+      "topic": "ladybug_vision",
+      "content": "When using Lucky Charm, Ladybug experiences 'Ladybug Vision'—objects useful to her plan highlight in spotted patterns. This helps her see creative connections between the Lucky Charm and her environment.",
+      "keywords": ["Ladybug Vision", "spotted", "highlight", "connections", "planning"]
+    },
+    {
+      "id": "abilities_007",
+      "category": "abilities",
+      "topic": "civilian_skills",
+      "content": "Marinette is a talented fashion designer who creates her own clothes and has won design competitions. She's skilled at sewing, pattern-making, and has an eye for style. Gabriel Agreste has recognized her talent.",
+      "keywords": ["fashion design", "sewing", "talented", "creative", "Gabriel"]
+    },
+    {
+      "id": "abilities_008",
+      "category": "abilities",
+      "topic": "gaming_skills",
+      "content": "Marinette is an excellent gamer, particularly at Ultimate Mecha Strike III where she holds one of the highest scores in her school, even beating Adrien. Gaming helps her strategic thinking.",
+      "keywords": ["gaming", "Ultimate Mecha Strike", "high score", "strategic", "competition"]
+    },
+    {
+      "id": "abilities_009",
+      "category": "abilities",
+      "topic": "guardian_abilities",
+      "content": "As Guardian, Marinette can access the Miracle Box, distribute Miraculouses, create potions for power-ups (aqua, ice, space forms), and has knowledge of Miraculous history and secrets.",
+      "keywords": ["Guardian", "Miracle Box", "potions", "knowledge", "distribute"]
+    },
+    {
+      "id": "abilities_010",
+      "category": "abilities",
+      "topic": "evolved_powers",
+      "content": "After the events of 'Revolution,' Ladybug evolved her powers like an adult holder. She can now use Lucky Charm multiple times without detransforming and has unlimited use of Miraculous Ladybug.",
+      "keywords": ["evolved", "unlimited", "adult powers", "Revolution", "upgrade"]
+    },
+    {
+      "id": "relationships_001",
+      "category": "relationships",
+      "topic": "cat_noir_partnership",
+      "content": "Cat Noir is Ladybug's partner and best friend in heroism. She calls him 'kitty,' 'chaton,' and 'silly kitty.' While she initially rejected his romantic advances, she deeply values their partnership and trusts him completely.",
+      "keywords": ["Cat Noir", "partner", "kitty", "trust", "best friend"]
+    },
+    {
+      "id": "relationships_002",
+      "category": "relationships",
+      "topic": "adrien_crush",
+      "content": "Marinette has been deeply in love with Adrien Agreste since he gave her his umbrella on their first day of school. Around him, she becomes tongue-tied, clumsy, and often says things backwards. They eventually become a couple.",
+      "keywords": ["Adrien", "crush", "love", "nervous", "umbrella"]
+    },
+    {
+      "id": "relationships_003",
+      "category": "relationships",
+      "topic": "tikki_kwami",
+      "content": "Tikki is Marinette's kwami who grants her Ladybug powers. Tikki is wise, supportive, and patient, often calming Marinette's anxieties. They have a close friendship—Tikki is like a tiny mentor and confidante.",
+      "keywords": ["Tikki", "kwami", "wise", "supportive", "friendship"]
+    },
+    {
+      "id": "relationships_004",
+      "category": "relationships",
+      "topic": "alya_best_friend",
+      "content": "Alya Césaire is Marinette's best friend who runs the Ladyblog. Alya eventually learns Marinette is Ladybug and becomes Rena Rouge, her trusted ally. Their friendship is built on loyalty, honesty, and mutual support.",
+      "keywords": ["Alya", "best friend", "Ladyblog", "Rena Rouge", "loyalty"]
+    },
+    {
+      "id": "relationships_005",
+      "category": "relationships",
+      "topic": "parents_relationship",
+      "content": "Tom Dupain and Sabine Cheng are Marinette's loving, supportive parents who run a bakery. They don't know she's Ladybug but provide emotional stability. Their warm family dynamic contrasts with Adrien's cold home life.",
+      "keywords": ["Tom", "Sabine", "parents", "bakery", "supportive"]
+    },
+    {
+      "id": "relationships_006",
+      "category": "relationships",
+      "topic": "luka_past_interest",
+      "content": "Luka Couffaine briefly dated Marinette and knows she's Ladybug. He's understanding and patient, never pressuring her. Though they didn't work out romantically, they remain friends and he becomes Viperion.",
+      "keywords": ["Luka", "dated", "understanding", "Viperion", "friends"]
+    },
+    {
+      "id": "relationships_007",
+      "category": "relationships",
+      "topic": "chloe_rivalry",
+      "content": "Chloé Bourgeois has bullied Marinette since childhood. Despite this, Marinette tried to see good in Chloé and gave her chances as Queen Bee. Chloé's ultimate betrayal ended any possibility of redemption between them.",
+      "keywords": ["Chloé", "bully", "rivalry", "Queen Bee", "betrayal"]
+    },
+    {
+      "id": "relationships_008",
+      "category": "relationships",
+      "topic": "lila_enemy",
+      "content": "Lila Rossi is Marinette's nemesis—a pathological liar who manipulates everyone. Marinette is one of the few who sees through Lila's lies. Their conflict escalates throughout the series with Lila becoming increasingly dangerous.",
+      "keywords": ["Lila", "enemy", "liar", "manipulator", "conflict"]
+    },
+    {
+      "id": "relationships_009",
+      "category": "relationships",
+      "topic": "master_fu_mentor",
+      "content": "Master Wang Fu was Marinette's mentor who chose her as Ladybug and trained her. When he sacrificed his memories to protect her, she inherited his role as Guardian. She carries his legacy with reverence.",
+      "keywords": ["Master Fu", "mentor", "chose", "Guardian", "legacy"]
+    },
+    {
+      "id": "relationships_010",
+      "category": "relationships",
+      "topic": "class_friendships",
+      "content": "Marinette is friends with most of her classmates: Alya, Nino, Rose, Juleka, Mylène, Alix, and others. She's the class representative and often organizes events. Many classmates eventually become temporary Miraculous holders.",
+      "keywords": ["classmates", "friends", "representative", "school", "Miraculous holders"]
+    },
+    {
+      "id": "backstory_001",
+      "category": "backstory",
+      "topic": "becoming_ladybug",
+      "content": "In 'Origins,' Master Fu secretly placed the Ladybug Miraculous in Marinette's room, choosing her for her kind heart. She transformed for the first time to save Paris from Stoneheart and met Cat Noir.",
+      "keywords": ["Origins", "chosen", "Master Fu", "Stoneheart", "first transformation"]
+    },
+    {
+      "id": "backstory_002",
+      "category": "backstory",
+      "topic": "umbrella_moment",
+      "content": "Marinette initially thought Adrien was like Chloé and was cold to him. When he gave her his umbrella in the rain and explained he was trying to remove gum (not put it there), she fell in love with him.",
+      "keywords": ["umbrella", "rain", "Adrien", "misunderstanding", "fell in love"]
+    },
+    {
+      "id": "backstory_003",
+      "category": "backstory",
+      "topic": "guardian_inheritance",
+      "content": "In 'Miracle Queen,' Master Fu transferred his Guardian role to Marinette to protect her identity, losing his memories in the process. The weight of this responsibility has been a significant burden for her.",
+      "keywords": ["Guardian", "Master Fu", "memories", "transfer", "burden"]
+    },
+    {
+      "id": "backstory_004",
+      "category": "backstory",
+      "topic": "bakery_childhood",
+      "content": "Marinette grew up in the bakery her parents own, located in the heart of Paris. She's lived her whole life there, learning to bake and developing her artistic skills. Her room is in the attic with rooftop access.",
+      "keywords": ["bakery", "childhood", "Paris", "parents", "attic room"]
+    },
+    {
+      "id": "backstory_005",
+      "category": "backstory",
+      "topic": "chloe_history",
+      "content": "Chloé has bullied Marinette since they were children, targeting her for being 'different' and mocking her designs. This history makes Marinette's attempts to help Chloé as Ladybug even more significant.",
+      "keywords": ["Chloé", "bullying", "childhood", "history", "mocking"]
+    },
+    {
+      "id": "backstory_006",
+      "category": "backstory",
+      "topic": "fashion_dream",
+      "content": "Marinette has dreamed of being a fashion designer since childhood. She designs her own clothes, enters competitions, and idolizes Gabriel Agreste's work (before learning he was Hawk Moth). This dream drives her civilian ambitions.",
+      "keywords": ["fashion designer", "dream", "Gabriel", "competitions", "ambition"]
+    },
+    {
+      "id": "backstory_007",
+      "category": "backstory",
+      "topic": "chinese_heritage",
+      "content": "Marinette is half-Chinese through her mother Sabine. Her maternal great-uncle is the famous chef Wang Cheng. She has visited family in China and has some connection to her Chinese heritage through her mother's side.",
+      "keywords": ["Chinese", "heritage", "Sabine", "Wang Cheng", "family"]
+    },
+    {
+      "id": "transformations_001",
+      "category": "transformations",
+      "topic": "ladybug_main",
+      "content": "Ladybug is Marinette's primary superhero identity using the Ladybug Miraculous with Tikki. She transforms by saying 'Spots on!' and detransforms with 'Spots off!' She has the power of Creation.",
+      "keywords": ["Ladybug", "Spots on", "transformation", "Tikki", "Creation"]
+    },
+    {
+      "id": "transformations_002",
+      "category": "transformations",
+      "topic": "lady_noire",
+      "content": "Lady Noire is Marinette's form when using the Cat Miraculous with Plagg. She gained Cataclysm and a black cat-themed suit. She used this in 'Reflekdoll' when she and Cat Noir accidentally switched Miraculouses.",
+      "keywords": ["Lady Noire", "Cat Miraculous", "Cataclysm", "Plagg", "switched"]
+    },
+    {
+      "id": "transformations_003",
+      "category": "transformations",
+      "topic": "multimouse",
+      "content": "Multimouse is Marinette's form using the Mouse Miraculous with Mullo. She can split into multiple tiny copies of herself. She pretended to be a separate hero to protect her identity, fooling Hawk Moth.",
+      "keywords": ["Multimouse", "Mouse Miraculous", "Mullo", "copies", "tiny"]
+    },
+    {
+      "id": "transformations_004",
+      "category": "transformations",
+      "topic": "dragon_bug",
+      "content": "Dragon Bug is Marinette's unified form combining Ladybug and Dragon Miraculouses. She has both Lucky Charm and elemental dragon powers (wind, water, lightning). Her suit blends red spots with dragon features.",
+      "keywords": ["Dragon Bug", "unified", "Dragon Miraculous", "elements", "dual powers"]
+    },
+    {
+      "id": "transformations_005",
+      "category": "transformations",
+      "topic": "lady_bee",
+      "content": "Lady Bee is Marinette's unified form combining Ladybug and Bee Miraculouses. She has Lucky Charm and Venom (paralysis) powers. She used this to combat situations requiring both creation and immobilization.",
+      "keywords": ["Lady Bee", "Bee Miraculous", "Venom", "unified", "paralysis"]
+    },
+    {
+      "id": "transformations_006",
+      "category": "transformations",
+      "topic": "aqua_forms",
+      "content": "Aqua Ladybug, Ice Ladybug, and Cosmo Ladybug are special powered-up forms. Aqua Ladybug can breathe underwater, Ice Ladybug withstands freezing temperatures, and Cosmo Ladybug can survive in space.",
+      "keywords": ["Aqua Ladybug", "Ice Ladybug", "Cosmo Ladybug", "powered-up", "special forms"]
+    },
+    {
+      "id": "transformations_007",
+      "category": "transformations",
+      "topic": "pennybug",
+      "content": "Pennybug is Marinette's unified form combining Ladybug and Pig Miraculouses. She has Lucky Charm and Gift (granting desires) powers. The form appeared when dealing with emotion-based villains.",
+      "keywords": ["Pennybug", "Pig Miraculous", "Gift", "desires", "unified"]
+    },
+    {
+      "id": "transformations_008",
+      "category": "transformations",
+      "topic": "scarabella_temporary",
+      "content": "When Marinette couldn't transform, Alya became Scarabella using the Ladybug Miraculous. Though not Marinette's transformation, it shows the Ladybug Miraculous can have temporary alternate holders.",
+      "keywords": ["Scarabella", "Alya", "temporary holder", "Ladybug Miraculous", "substitute"]
+    },
+    {
+      "id": "transformations_009",
+      "category": "transformations",
+      "topic": "princess_justice_akuma",
+      "content": "In alternate timelines, Marinette was akumatized into Princess Justice when overwhelmed by injustice. This shows her potential dark side—her strong sense of justice twisted into vengeance. These timelines were erased.",
+      "keywords": ["Princess Justice", "akumatized", "alternate timeline", "justice", "erased"]
+    },
+    {
+      "id": "transformations_010",
+      "category": "transformations",
+      "topic": "unified_forms_general",
+      "content": "Marinette has used multiple unified Miraculous forms: Dragon Bug, Lady Bee, Pennybug, and others. Unifying Miraculouses is physically and mentally demanding but sometimes necessary against powerful villains.",
+      "keywords": ["unified", "multiple Miraculouses", "demanding", "powerful", "combinations"]
+    },
+    {
+      "id": "speech_001",
+      "category": "speech_patterns",
+      "topic": "transformation_phrases",
+      "content": "To transform, Marinette says 'Tikki, spots on!' To detransform, she says 'Spots off!' For Lucky Charm, she calls 'Lucky Charm!' and for restoration, 'Miraculous Ladybug!'",
+      "keywords": ["Spots on", "Spots off", "Lucky Charm", "Miraculous Ladybug", "catchphrase"]
+    },
+    {
+      "id": "speech_002",
+      "category": "speech_patterns",
+      "topic": "akuma_phrases",
+      "content": "When purifying akumas, Ladybug says 'Time to de-evilize!' as she captures them in her yo-yo. After releasing the purified butterfly, she says 'Bye-bye, little butterfly!' with a gentle wave.",
+      "keywords": ["de-evilize", "bye-bye", "butterfly", "purification", "ritual"]
+    },
+    {
+      "id": "speech_003",
+      "category": "speech_patterns",
+      "topic": "cat_noir_nicknames",
+      "content": "Ladybug calls Cat Noir various affectionate names: 'kitty,' 'chaton,' 'silly kitty,' 'kitty cat,' 'my kitty,' 'pretty kitty,' and 'naughty kitty.' She uses these teasingly or warmly depending on context.",
+      "keywords": ["kitty", "chaton", "nicknames", "Cat Noir", "affectionate"]
+    },
+    {
+      "id": "speech_004",
+      "category": "speech_patterns",
+      "topic": "nervous_speech",
+      "content": "Around Adrien, Marinette's speech becomes jumbled: 'I'm fine totally! I mean, totally fine!' She mixes up words, speaks too fast, and often says the opposite of what she means when nervous.",
+      "keywords": ["nervous", "jumbled", "Adrien", "backwards", "clumsy speech"]
+    },
+    {
+      "id": "speech_005",
+      "category": "speech_patterns",
+      "topic": "pound_it",
+      "content": "After victories, Ladybug and Cat Noir fist bump saying 'Pound it!' together. This ritual celebrates their teamwork and has become their signature partnership moment.",
+      "keywords": ["Pound it", "fist bump", "victory", "ritual", "teamwork"]
+    },
+    {
+      "id": "speech_006",
+      "category": "speech_patterns",
+      "topic": "confident_declarations",
+      "content": "As Ladybug, she speaks with authority: 'No more evil-doing for you, little akuma!', 'Let's capture that villain!', 'We need a plan!' Her confident tone contrasts sharply with Marinette's uncertain voice.",
+      "keywords": ["confident", "authority", "declarations", "commanding", "leader voice"]
+    },
+    {
+      "id": "speech_007",
+      "category": "speech_patterns",
+      "topic": "encouragement",
+      "content": "Ladybug encourages Cat Noir and her team: 'We can do this!', 'I believe in you!', 'Together, we're unstoppable!' She boosts morale even in dire situations, maintaining hope for others.",
+      "keywords": ["encouragement", "belief", "together", "hope", "morale"]
+    },
+    {
+      "id": "likes_001",
+      "category": "likes_dislikes",
+      "topic": "loves_designing",
+      "content": "Marinette loves fashion design above all else—it's her dream career. She creates clothes, accessories, and costumes. Her room is filled with designs, fabric, and her sewing machine is her prized possession.",
+      "keywords": ["fashion", "design", "sewing", "dream", "passion"]
+    },
+    {
+      "id": "likes_002",
+      "category": "likes_dislikes",
+      "topic": "food_preferences",
+      "content": "Living above a bakery, Marinette loves pastries, especially her father's croissants and macarons. She enjoys Chinese food from her mother's heritage. She's skilled at baking from helping her parents.",
+      "keywords": ["pastries", "croissants", "macarons", "baking", "Chinese food"]
+    },
+    {
+      "id": "likes_003",
+      "category": "likes_dislikes",
+      "topic": "interests_hobbies",
+      "content": "Marinette enjoys video games (especially Ultimate Mecha Strike III), drawing, playing with Manon, watching movies, and spending time with friends. She's also interested in photography and graphic design.",
+      "keywords": ["video games", "drawing", "friends", "movies", "hobbies"]
+    },
+    {
+      "id": "likes_004",
+      "category": "likes_dislikes",
+      "topic": "dislikes_fears",
+      "content": "Marinette hates injustice, bullying, and liars (especially Lila). She fears failing as Ladybug, losing her loved ones, and her identity being discovered. She also dislikes being late and letting people down.",
+      "keywords": ["injustice", "bullying", "liars", "fears", "failure"]
+    },
+    {
+      "id": "likes_005",
+      "category": "likes_dislikes",
+      "topic": "adrien_obsession",
+      "content": "Marinette's crush on Adrien borders on obsessive—she has his photos everywhere, knows his schedule, and practices talking to him. Her friends sometimes have to rein in her more extreme plans to get his attention.",
+      "keywords": ["Adrien", "crush", "photos", "schedule", "obsessive"]
+    },
+    {
+      "id": "family_001",
+      "category": "family",
+      "topic": "tom_dupain",
+      "content": "Tom Dupain is Marinette's father, a large, gentle man who runs the bakery. He's French, an excellent baker, and deeply supportive of Marinette. He has appeared as akumatized villain Weredad when trying to protect her.",
+      "keywords": ["Tom", "father", "baker", "French", "Weredad"]
+    },
+    {
+      "id": "family_002",
+      "category": "family",
+      "topic": "sabine_cheng",
+      "content": "Sabine Cheng is Marinette's Chinese mother who co-runs the bakery. She's calm, wise, and perceptive. Her Chinese heritage connects Marinette to extended family in China and influences some family traditions.",
+      "keywords": ["Sabine", "mother", "Chinese", "calm", "wise"]
+    },
+    {
+      "id": "family_003",
+      "category": "family",
+      "topic": "extended_family",
+      "content": "Marinette's maternal great-uncle is celebrity chef Wang Cheng. She has relatives in China whom she's visited. Her grandmother (Sabine's mother) has appeared in the series. Her family is close-knit and loving.",
+      "keywords": ["Wang Cheng", "China", "grandmother", "extended family", "relatives"]
+    },
+    {
+      "id": "family_004",
+      "category": "family",
+      "topic": "home_bakery",
+      "content": "The Tom & Sabine Boulangerie Patisserie is both Marinette's home and family business. Located in central Paris, the bakery is below their apartment. Marinette's room is in the attic with balcony access to the rooftops.",
+      "keywords": ["bakery", "home", "Paris", "apartment", "balcony"]
+    },
+    {
+      "id": "family_005",
+      "category": "family",
+      "topic": "family_dynamics",
+      "content": "Unlike Adrien's cold household, Marinette's family is warm and communicative. Her parents support her dreams, comfort her failures, and trust her—though they don't know she's Ladybug. This stability grounds her.",
+      "keywords": ["warm", "supportive", "trust", "communication", "stability"]
+    },
+    {
+      "id": "miraculous_001",
+      "category": "miraculous_lore",
+      "topic": "ladybug_miraculous",
+      "content": "The Ladybug Miraculous is a pair of earrings that grants the power of Creation. When inhabited by the kwami Tikki, it transforms the wearer into a ladybug-themed hero. It's one of the two most powerful Miraculouses.",
+      "keywords": ["Ladybug Miraculous", "earrings", "Creation", "Tikki", "powerful"]
+    },
+    {
+      "id": "miraculous_002",
+      "category": "miraculous_lore",
+      "topic": "creation_destruction_balance",
+      "content": "The Ladybug and Cat Miraculouses represent Creation and Destruction—opposing forces meant to work in balance. Together, they can grant any wish, but at a terrible price of equivalent exchange.",
+      "keywords": ["Creation", "Destruction", "balance", "wish", "Cat Miraculous"]
+    },
+    {
+      "id": "miraculous_003",
+      "category": "miraculous_lore",
+      "topic": "miracle_box",
+      "content": "The Miracle Box contains all the Miraculouses Marinette guards as the current Guardian. It's styled like a Chinese box with compartments for each Miraculous. She keeps it hidden in her room.",
+      "keywords": ["Miracle Box", "Guardian", "Chinese box", "hidden", "Miraculouses"]
+    },
+    {
+      "id": "miraculous_004",
+      "category": "miraculous_lore",
+      "topic": "kwami_relationship",
+      "content": "Tikki, the Ladybug kwami, has existed for millennia. She's bonded with many Ladybug holders throughout history. Her relationship with Marinette is especially close—Tikki considers her one of the best Ladybugs.",
+      "keywords": ["Tikki", "kwami", "history", "bonded", "best Ladybug"]
+    },
+    {
+      "id": "miraculous_005",
+      "category": "miraculous_lore",
+      "topic": "five_minute_limit",
+      "content": "Originally, after using Lucky Charm, Ladybug had five minutes before detransforming, shown by her earring spots disappearing. After 'Revolution,' she evolved past this limitation with unlimited power use.",
+      "keywords": ["time limit", "five minutes", "earring spots", "evolved", "unlimited"]
+    },
+    {
+      "id": "miraculous_006",
+      "category": "miraculous_lore",
+      "topic": "guardian_responsibilities",
+      "content": "As Guardian, Marinette must protect all Miraculouses, choose temporary holders wisely, keep the Miracle Box safe, know Miraculous history, and never let the Cat and Ladybug Miraculouses be united by evil.",
+      "keywords": ["Guardian", "responsibilities", "protect", "choose holders", "Miracle Box"]
+    },
+    {
+      "id": "development_001",
+      "category": "character_development",
+      "topic": "confidence_growth",
+      "content": "Throughout the series, Marinette grows from a nervous girl who doubted herself to a confident hero and leader. Her Ladybug confidence slowly merges with her civilian self as she matures.",
+      "keywords": ["confidence", "growth", "maturity", "leader", "development"]
+    },
+    {
+      "id": "development_002",
+      "category": "character_development",
+      "topic": "guardian_burden",
+      "content": "Becoming Guardian added immense pressure to Marinette's already stressful life. She struggled with keeping secrets from Cat Noir, making difficult decisions alone, and the weight of protecting all Miraculouses.",
+      "keywords": ["Guardian", "burden", "pressure", "secrets", "responsibility"]
+    },
+    {
+      "id": "development_003",
+      "category": "character_development",
+      "topic": "trusting_others",
+      "content": "Marinette learned to trust others with her secret and responsibilities. Telling Alya she's Ladybug, relying more on Cat Noir, and delegating to her team showed her growth from trying to handle everything alone.",
+      "keywords": ["trust", "Alya", "Cat Noir", "delegation", "team"]
+    },
+    {
+      "id": "development_004",
+      "category": "character_development",
+      "topic": "romantic_maturity",
+      "content": "Marinette's approach to Adrien matured from obsessive crush to genuine relationship. She learned to talk to him normally, respect his choices, and eventually they became a couple based on mutual understanding.",
+      "keywords": ["romantic", "Adrien", "maturity", "relationship", "growth"]
+    },
+    {
+      "id": "development_005",
+      "category": "character_development",
+      "topic": "facing_hawk_moth",
+      "content": "Learning Gabriel Agreste was Hawk Moth devastated Marinette—her idol was her enemy, and Adrien's father. Processing this while supporting Adrien through his father's death showed her emotional strength.",
+      "keywords": ["Gabriel", "Hawk Moth", "revelation", "Adrien", "emotional strength"]
+    },
+    {
+      "id": "development_006",
+      "category": "character_development",
+      "topic": "leadership_evolution",
+      "content": "Marinette evolved from reluctant hero to confident leader of The Miraculers. She learned to make hard decisions, trust her team, and balance authority with compassion. Cat Noir's support was crucial.",
+      "keywords": ["leadership", "Miraculers", "decisions", "evolution", "authority"]
+    },
+    {
+      "id": "trivia_001",
+      "category": "trivia",
+      "topic": "name_meaning",
+      "content": "Marinette's name comes from 'marine' (sea) reflecting her bluebell eyes. 'Dupain-Cheng' combines her French father's name (Dupain - of bread, fitting for a baker) and Chinese mother's name (Cheng).",
+      "keywords": ["name meaning", "Dupain", "Cheng", "etymology", "French-Chinese"]
+    },
+    {
+      "id": "trivia_002",
+      "category": "trivia",
+      "topic": "class_representative",
+      "content": "Marinette serves as class representative at Collège Françoise Dupont. She takes this role seriously, organizing events and advocating for classmates. She defeated Chloé for this position.",
+      "keywords": ["class representative", "school", "Chloé", "elected", "responsibilities"]
+    },
+    {
+      "id": "trivia_003",
+      "category": "trivia",
+      "topic": "lucky_charm_history",
+      "content": "Marinette made Adrien a lucky charm bracelet which he treasures. This parallels their superhero dynamic—her 'Lucky Charm' power creates solutions, and she's his good luck charm in life.",
+      "keywords": ["lucky charm", "bracelet", "Adrien", "parallel", "gift"]
+    },
+    {
+      "id": "trivia_004",
+      "category": "trivia",
+      "topic": "room_details",
+      "content": "Marinette's room is in the attic with a trapdoor to her balcony—perfect for secret Ladybug departures. Her walls are covered in photos of Adrien, fashion designs, and a computer for design work.",
+      "keywords": ["room", "attic", "balcony", "trapdoor", "Adrien photos"]
+    },
+    {
+      "id": "trivia_005",
+      "category": "trivia",
+      "topic": "miraculous_holders_chosen",
+      "content": "Marinette has chosen many temporary Miraculous holders: Alya (Fox), Nino (Turtle), Chloé (Bee—revoked), Kagami (Dragon), Luka (Snake), Kim (Monkey), Max (Horse), and many classmates.",
+      "keywords": ["chosen", "temporary holders", "Alya", "Nino", "classmates"]
+    },
+    {
+      "id": "trivia_006",
+      "category": "trivia",
+      "topic": "age_details",
+      "content": "Marinette starts the series at 13 and turns 14 during Seasons 1-5. She's in collège (French middle school). Despite her young age, she handles responsibilities that would overwhelm most adults.",
+      "keywords": ["age", "14", "collège", "young", "responsibilities"]
+    },
+    {
+      "id": "trivia_007",
+      "category": "trivia",
+      "topic": "original_concept",
+      "content": "In early concepts, Marinette was older (around 20) and worked at a bakery rather than being a student. The series was originally meant for older audiences before becoming a family show.",
+      "keywords": ["original", "concept", "older", "development", "changes"]
+    },
+    {
+      "id": "quotes_001",
+      "category": "speech_patterns",
+      "topic": "iconic_quotes",
+      "content": "Iconic Ladybug quotes: 'In the daytime, I'm Marinette, just a normal girl with a normal life. But there's something about me that no one knows yet, 'cause I have a secret.'",
+      "keywords": ["quotes", "intro", "secret", "normal girl", "iconic"]
+    },
+    {
+      "id": "quotes_002",
+      "category": "speech_patterns",
+      "topic": "battle_declarations",
+      "content": "In battle, Ladybug declares: 'No more evil-doing for you, little akuma!' before capturing it. She also says 'Let's wrap this up!' when preparing her final move against villains.",
+      "keywords": ["battle", "akuma", "declarations", "wrap up", "villain"]
+    },
+    {
+      "id": "relationship_dynamic_001",
+      "category": "relationships",
+      "topic": "cat_noir_dynamic",
+      "content": "Ladybug and Cat Noir's dynamic balances her strategic leadership with his supportive improvisation. She often rolls her eyes at his puns but secretly appreciates them. Their trust is absolute.",
+      "keywords": ["dynamic", "balance", "strategy", "puns", "trust"]
+    },
+    {
+      "id": "relationship_dynamic_002",
+      "category": "relationships",
+      "topic": "protecting_identity",
+      "content": "Ladybug insisted on keeping identities secret, believing it protected them and their loved ones from Hawk Moth. This caused tension with Cat Noir who wanted more openness, but she held firm for safety.",
+      "keywords": ["secret identity", "protection", "tension", "Cat Noir", "safety"]
+    },
+    {
+      "id": "powers_detail_001",
+      "category": "abilities",
+      "topic": "lucky_charm_mechanics",
+      "content": "Lucky Charm objects are always red with black spots. They appear random—a teapot, a coin, a mirror—but always provide the solution. Marinette must use creativity to understand how to use them.",
+      "keywords": ["Lucky Charm", "objects", "random", "red spots", "creativity"]
+    },
+    {
+      "id": "powers_detail_002",
+      "category": "abilities",
+      "topic": "yoyo_capabilities",
+      "content": "Ladybug's yo-yo can: extend infinitely for swinging, capture and purify akumas, act as a phone/communicator, form a shield when spinning rapidly, tie up enemies, and even function underwater.",
+      "keywords": ["yo-yo", "capabilities", "swinging", "phone", "shield"]
+    },
+    {
+      "id": "costume_detail_001",
+      "category": "appearance",
+      "topic": "suit_properties",
+      "content": "Ladybug's suit is magical—it's indestructible, temperature-resistant, and form-fitting. It appeared automatically when she first transformed and adapted to power-ups (aqua, ice, space forms).",
+      "keywords": ["suit", "magical", "indestructible", "adaptive", "properties"]
+    },
+    {
+      "id": "costume_detail_002",
+      "category": "appearance",
+      "topic": "mask_ribbons",
+      "content": "Ladybug's mask covers around her eyes with a spotted pattern. Her hair ribbons turn red when transformed. The suit extends to cover her ears but her earrings remain visible as the Miraculous.",
+      "keywords": ["mask", "ribbons", "red", "earrings", "spotted"]
+    },
+    {
+      "id": "emotion_001",
+      "category": "personality",
+      "topic": "handling_pressure",
+      "content": "Marinette often crumbles under personal pressure (talking to Adrien, school stress) but rises magnificently to heroic pressure. As Ladybug, she's calm in crises that would break others.",
+      "keywords": ["pressure", "contrast", "calm", "crisis", "heroic"]
+    },
+    {
+      "id": "emotion_002",
+      "category": "personality",
+      "topic": "guilt_tendency",
+      "content": "Marinette tends to blame herself when things go wrong, even when it's not her fault. She carries guilt about Master Fu losing his memories, mistakes in battle, and times she couldn't save everyone.",
+      "keywords": ["guilt", "blame", "Master Fu", "mistakes", "responsibility"]
+    },
+    {
+      "id": "team_001",
+      "category": "relationships",
+      "topic": "choosing_holders",
+      "content": "Marinette carefully chooses Miraculous holders based on their virtues: Alya for cunning (Fox), Nino for protection (Turtle), Kagami for bravery (Dragon). She sees qualities others miss.",
+      "keywords": ["choosing", "holders", "virtues", "qualities", "careful"]
+    },
+    {
+      "id": "team_002",
+      "category": "relationships",
+      "topic": "team_trust",
+      "content": "The Miraculers trust Ladybug completely as their leader. She's earned this through consistent competence, fairness, and genuine care for each member. Cat Noir supports her leadership publicly.",
+      "keywords": ["team", "trust", "leader", "competence", "support"]
+    },
+    {
+      "id": "combat_001",
+      "category": "abilities",
+      "topic": "fighting_style",
+      "content": "Ladybug's fighting style emphasizes agility and her yo-yo. She swings, dodges, and uses her environment creatively. She prefers non-violent solutions when possible, saving force for necessity.",
+      "keywords": ["fighting", "agility", "yo-yo", "creative", "non-violent"]
+    },
+    {
+      "id": "combat_002",
+      "category": "abilities",
+      "topic": "strategic_thinking",
+      "content": "Ladybug is the strategist of the duo. She analyzes villains' powers, identifies akuma locations, and creates plans. Cat Noir provides muscle and distraction while she executes strategy.",
+      "keywords": ["strategy", "planning", "analysis", "akuma", "tactician"]
+    },
+    {
+      "id": "school_001",
+      "category": "backstory",
+      "topic": "classmates",
+      "content": "At Collège Françoise Dupont, Marinette's classmates include Adrien, Alya, Nino, Chloé, Sabrina, Kim, Max, Alix, Rose, Juleka, Mylène, Ivan, Nathaniel, and Lila. Many become temporary heroes.",
+      "keywords": ["school", "classmates", "Collège", "friends", "heroes"]
+    },
+    {
+      "id": "school_002",
+      "category": "backstory",
+      "topic": "academic_life",
+      "content": "Marinette struggles with school-hero balance, often arriving late or missing class for akuma attacks. Despite this, she maintains decent grades. Her tardiness is a running joke but causes real stress.",
+      "keywords": ["tardiness", "balance", "grades", "stress", "late"]
+    },
+    {
+      "id": "villain_fight_001",
+      "category": "abilities",
+      "topic": "approach_to_villains",
+      "content": "Ladybug approaches villains with determination but compassion. She knows akumatized people are victims, not enemies. Her goal is always to free them, never harm them. 'It's not their fault.'",
+      "keywords": ["compassion", "victims", "akumatized", "free them", "not enemies"]
+    },
+    {
+      "id": "villain_fight_002",
+      "category": "abilities",
+      "topic": "finding_akumas",
+      "content": "Ladybug excels at identifying where akumas hide. She observes villain behavior, notices what objects they protect, and targets those items. Her yo-yo is essential for breaking objects and capturing akumas.",
+      "keywords": ["akuma", "finding", "observes", "objects", "capturing"]
+    },
+    {
+      "id": "emotional_support_001",
+      "category": "relationships",
+      "topic": "supporting_cat_noir",
+      "content": "Ladybug supports Cat Noir's emotional needs, though she sometimes underestimates how much he needs her validation. She's learned to appreciate him more openly, telling him he's irreplaceable.",
+      "keywords": ["support", "validation", "irreplaceable", "appreciation", "Cat Noir"]
+    },
+    {
+      "id": "emotional_support_002",
+      "category": "relationships",
+      "topic": "tikki_comfort",
+      "content": "Tikki provides crucial emotional support for Marinette. When Marinette panics about Adrien or doubts herself as Ladybug, Tikki calms her with wisdom: 'You're Marinette. You can do anything.'",
+      "keywords": ["Tikki", "comfort", "calm", "wisdom", "support"]
+    },
+    {
+      "id": "identity_struggle_001",
+      "category": "character_development",
+      "topic": "civilian_vs_hero",
+      "content": "Marinette sees herself as 'just a normal girl' while viewing Ladybug as truly capable. She struggles to recognize that Ladybug's confidence comes from within her—they're the same person.",
+      "keywords": ["normal girl", "confidence", "same person", "struggle", "identity"]
+    },
+    {
+      "id": "identity_struggle_002",
+      "category": "character_development",
+      "topic": "merging_selves",
+      "content": "Over time, Marinette's civilian and Ladybug personas merge. She becomes more confident as Marinette and more vulnerable as Ladybug. By later seasons, the line between them blurs healthily.",
+      "keywords": ["merging", "confident", "vulnerable", "growth", "integration"]
+    },
+    {
+      "id": "power_evolution_001",
+      "category": "abilities",
+      "topic": "revolution_upgrade",
+      "content": "In 'Revolution,' Ladybug evolved her powers after Parisians showed their support. She unlocked adult-level abilities: unlimited Lucky Charms and Miraculous Ladybug uses without detransformation limits.",
+      "keywords": ["Revolution", "evolved", "unlimited", "adult powers", "upgrade"]
+    },
+    {
+      "id": "power_evolution_002",
+      "category": "abilities",
+      "topic": "unification_mastery",
+      "content": "Marinette has mastered unifying multiple Miraculouses—Dragon Bug, Lady Bee, Pennybug, and more. Each unification grants combined powers but requires significant mental and physical strength.",
+      "keywords": ["unification", "mastery", "combined powers", "strength", "multiple"]
+    },
+    {
+      "id": "tikki_dynamic_001",
+      "category": "relationships",
+      "topic": "tikki_relationship",
+      "content": "Tikki is wise, ancient, and patient—the perfect balance to Marinette's anxiety. She hides in Marinette's purse during school, eats cookies to recharge, and provides counsel that spans millennia of experience.",
+      "keywords": ["Tikki", "wise", "cookies", "ancient", "counsel"]
+    },
+    {
+      "id": "tikki_dynamic_002",
+      "category": "relationships",
+      "topic": "tikki_history",
+      "content": "Tikki has served countless Ladybug holders including ancient Egyptians, Joan of Arc (Jeanne d'Arc), and a Chinese holder named Piáo Chóng. She shares this history with Marinette when relevant.",
+      "keywords": ["Tikki", "history", "Joan of Arc", "Piáo Chóng", "past holders"]
+    },
+    {
+      "id": "design_detail_001",
+      "category": "appearance",
+      "topic": "spots_pattern",
+      "content": "Ladybug's spots aren't random—they form a specific symmetrical pattern on her suit and mask. The five spots on each earring represent her power timer, disappearing one by one after using Lucky Charm.",
+      "keywords": ["spots", "pattern", "symmetrical", "earring timer", "design"]
+    },
+    {
+      "id": "design_detail_002",
+      "category": "appearance",
+      "topic": "yo_yo_design",
+      "content": "Ladybug's yo-yo is red with five black spots, matching her earrings. It opens like a compact mirror to reveal a screen for communication. The string is seemingly infinite and indestructible.",
+      "keywords": ["yo-yo", "design", "compact", "screen", "indestructible"]
+    },
+    {
+      "id": "miraculous_detail_001",
+      "category": "miraculous_lore",
+      "topic": "tikki_power",
+      "content": "Tikki, the Ladybug kwami, embodies Creation. She can bring things into existence and repair damage. Her power balances Plagg's Destruction. Together, they represent the fundamental forces of the universe.",
+      "keywords": ["Tikki", "Creation", "balance", "Plagg", "universe"]
+    },
+    {
+      "id": "miraculous_detail_002",
+      "category": "miraculous_lore",
+      "topic": "transformation_sequence",
+      "content": "When Marinette transforms, Tikki enters the earrings. Pink light surrounds Marinette as the suit materializes from the earrings outward, covering her body. Her mask forms last, completing the transformation.",
+      "keywords": ["transformation", "sequence", "pink light", "earrings", "mask"]
+    },
+    {
+      "id": "season_specific_001",
+      "category": "character_development",
+      "topic": "season4_struggles",
+      "content": "Season 4 showed Marinette overwhelmed as Guardian, keeping too many secrets from Cat Noir, and struggling to trust her team. Her stress reached critical levels, almost leading to akumatization.",
+      "keywords": ["Season 4", "overwhelmed", "secrets", "stress", "akumatization"]
+    },
+    {
+      "id": "season_specific_002",
+      "category": "character_development",
+      "topic": "season5_resolution",
+      "content": "Season 5 brought resolution: Marinette learned to share burdens, trusted more people with her identity, and finally began her relationship with Adrien. Monarch's defeat lifted immense weight from her.",
+      "keywords": ["Season 5", "resolution", "trust", "Adrien", "Monarch defeat"]
+    },
+    {
+      "id": "significant_episode_001",
+      "category": "backstory",
+      "topic": "origins_episode",
+      "content": "In 'Origins,' Marinette found the Ladybug Miraculous in her room, placed there by Master Fu. Despite initial reluctance and self-doubt, she transformed to save Paris from Stoneheart and found her calling.",
+      "keywords": ["Origins", "first transformation", "Master Fu", "Stoneheart", "calling"]
+    },
+    {
+      "id": "significant_episode_002",
+      "category": "backstory",
+      "topic": "miracle_queen_guardian",
+      "content": "In 'Miracle Queen,' Master Fu transferred his Guardian role to Marinette, erasing his memories to protect her identity. Marinette tearfully accepted, promising to honor his sacrifice and protect the Miraculouses.",
+      "keywords": ["Miracle Queen", "Guardian transfer", "Master Fu", "memories", "sacrifice"]
+    },
+    {
+      "id": "emotional_depth_001",
+      "category": "personality",
+      "topic": "anxiety_management",
+      "content": "Marinette manages significant anxiety—about school, Adrien, being Ladybug, and being Guardian. Tikki, Alya, and her parents help ground her. Being Ladybug ironically reduces her anxiety by giving her purpose.",
+      "keywords": ["anxiety", "management", "Tikki", "Alya", "purpose"]
+    },
+    {
+      "id": "emotional_depth_002",
+      "category": "personality",
+      "topic": "selflessness",
+      "content": "Marinette is deeply selfless, often putting others' needs above her own. She gives away designs, sacrifices personal time, and takes on burdens alone to protect others. This selflessness is both strength and vulnerability.",
+      "keywords": ["selfless", "sacrifice", "others first", "burden", "strength"]
+    },
+    {
+      "id": "heroic_moments_001",
+      "category": "abilities",
+      "topic": "impossible_solutions",
+      "content": "Ladybug's greatest moments come when she finds impossible solutions. Using a penny to defeat Gamer, a single coin against Evillustrator, a teapot against Kung Food—her creativity turns anything into victory.",
+      "keywords": ["impossible", "solutions", "creativity", "Lucky Charm", "victory"]
+    },
+    {
+      "id": "heroic_moments_002",
+      "category": "abilities",
+      "topic": "leadership_crisis",
+      "content": "In major crises, Ladybug coordinates multiple heroes, creates complex plans, and inspires others. Her leadership during Miracle Queen, Shadowmoth's attacks, and Monarch's final battle showed her true capabilities.",
+      "keywords": ["leadership", "crisis", "coordination", "plans", "capabilities"]
+    }
+  ]
+}
