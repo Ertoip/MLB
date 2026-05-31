@@ -21,10 +21,9 @@ from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
     BitsAndBytesConfig,
-    TrainingArguments,
 )
-from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
-from trl import SFTTrainer, DataCollatorForCompletionOnlyLM
+from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training, PeftModel
+from trl import SFTTrainer, SFTConfig
 
 # =============================================================================
 # CONFIGURATION
@@ -33,15 +32,15 @@ from trl import SFTTrainer, DataCollatorForCompletionOnlyLM
 MODEL_ID = "meta-llama/Llama-3.2-3B-Instruct"
 CHARACTERS = ["marinette", "ladybug", "adrien", "cat_noir"]
 
-# Default training hyperparameters
+# Default training hyperparameters (optimized for ~6GB VRAM)
 DEFAULT_CONFIG = {
     "epochs": 3,
-    "batch_size": 4,
-    "gradient_accumulation_steps": 4,
+    "batch_size": 1,                    # Reduced for low VRAM
+    "gradient_accumulation_steps": 8,   # Compensate for small batch
     "learning_rate": 2e-4,
-    "max_seq_length": 2048,
-    "lora_r": 16,
-    "lora_alpha": 32,
+    "max_seq_length": 1024,             # Reduced for low VRAM
+    "lora_r": 8,                        # Reduced for low VRAM
+    "lora_alpha": 16,
     "lora_dropout": 0.05,
 }
 
@@ -50,18 +49,22 @@ DEFAULT_CONFIG = {
 # DATA LOADING
 # =============================================================================
 
-def load_character_data(character: str, data_dir: Path = Path(".progress")) -> list[dict]:
+def load_character_data(character: str, data_dir: Path = Path(".progress"), data_file: str = None) -> list[dict]:
     """
     Load processed conversation data for a character.
     
     Args:
         character: Character name (marinette, ladybug, adrien, cat_noir)
         data_dir: Directory containing the cache files
+        data_file: Optional path to a specific data file (overrides default)
         
     Returns:
         List of conversation dicts with 'messages' key
     """
-    cache_file = data_dir / f"{character}_enhanced_cache.json"
+    if data_file:
+        cache_file = Path(data_file)
+    else:
+        cache_file = data_dir / f"{character}_enhanced_cache.json"
     
     if not cache_file.exists():
         raise FileNotFoundError(
@@ -75,7 +78,7 @@ def load_character_data(character: str, data_dir: Path = Path(".progress")) -> l
     # Extract just the messages for training
     conversations = [{"messages": item["messages"]} for item in data]
     
-    print(f"Loaded {len(conversations)} conversations for {character}")
+    print(f"Loaded {len(conversations)} conversations from {cache_file}")
     return conversations
 
 
@@ -101,23 +104,28 @@ def format_chat_template(example: dict, tokenizer) -> str:
 # MODEL SETUP
 # =============================================================================
 
-def load_model_and_tokenizer(model_id: str = MODEL_ID):
+def load_model_and_tokenizer(model_id: str = MODEL_ID, low_memory: bool = True):
     """
     Load Llama model with 4-bit quantization for QLoRA training.
     
     Args:
         model_id: HuggingFace model identifier
+        low_memory: Use extra memory optimizations for small GPUs (< 8GB)
         
     Returns:
         Tuple of (model, tokenizer)
     """
     print(f"Loading model: {model_id}")
     
+    # Clear any cached memory
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+    
     # 4-bit quantization config for QLoRA
     bnb_config = BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_quant_type="nf4",
-        bnb_4bit_compute_dtype=torch.bfloat16,
+        bnb_4bit_compute_dtype=torch.float16,  # Use float16 instead of bfloat16 for older GPUs
         bnb_4bit_use_double_quant=True,
     )
     
@@ -131,12 +139,19 @@ def load_model_and_tokenizer(model_id: str = MODEL_ID):
         model_id,
         quantization_config=bnb_config,
         device_map="auto",
-        torch_dtype=torch.bfloat16,
+        torch_dtype=torch.float16,
         trust_remote_code=True,
+        low_cpu_mem_usage=True,  # Reduces CPU RAM during loading
     )
     
     # Prepare model for k-bit training
     model = prepare_model_for_kbit_training(model)
+    
+    # Print memory usage
+    if torch.cuda.is_available():
+        allocated = torch.cuda.memory_allocated() / 1024**3
+        reserved = torch.cuda.memory_reserved() / 1024**3
+        print(f"GPU Memory: {allocated:.2f}GB allocated, {reserved:.2f}GB reserved")
     
     print(f"Model loaded on device: {model.device}")
     return model, tokenizer
@@ -180,6 +195,8 @@ def train(
     output_dir: str = None,
     config: dict = None,
     resume_from_checkpoint: bool = False,
+    data_file: str = None,
+    resume_adapter: str = None,
 ):
     """
     Run QLoRA fine-tuning for a character.
@@ -189,12 +206,14 @@ def train(
         output_dir: Directory to save the adapter
         config: Training configuration dict
         resume_from_checkpoint: Whether to resume from last checkpoint
+        data_file: Optional path to custom training data file
+        resume_adapter: Path to existing adapter to continue training from
     """
     config = config or DEFAULT_CONFIG
     output_dir = output_dir or f"./adapters/{character}"
     
     # Load data
-    conversations = load_character_data(character)
+    conversations = load_character_data(character, data_file=data_file)
     dataset = Dataset.from_list(conversations)
     
     # Split into train/eval (90/10)
@@ -207,15 +226,21 @@ def train(
     # Load model and tokenizer
     model, tokenizer = load_model_and_tokenizer()
     
-    # Apply LoRA
-    model = setup_lora(model, config)
+    # Apply LoRA - either fresh or from existing adapter
+    if resume_adapter:
+        print(f"Loading existing adapter from: {resume_adapter}")
+        model = PeftModel.from_pretrained(model, resume_adapter, is_trainable=True)
+        model.print_trainable_parameters()
+    else:
+        model = setup_lora(model, config)
     
     # Format dataset with chat template
     def formatting_func(example):
         return format_chat_template(example, tokenizer)
     
-    # Training arguments
-    training_args = TrainingArguments(
+    # SFTConfig combines training args with SFT-specific settings
+    # Optimized for low VRAM (~6GB)
+    sft_config = SFTConfig(
         output_dir=output_dir,
         num_train_epochs=config["epochs"],
         per_device_train_batch_size=config["batch_size"],
@@ -229,35 +254,29 @@ def train(
         save_steps=100,
         eval_strategy="steps",
         eval_steps=100,
-        save_total_limit=3,
-        bf16=True,
+        save_total_limit=2,             # Reduced to save disk space
+        fp16=False,                     # Disable mixed precision to avoid dtype issues
+        bf16=False,
         gradient_checkpointing=True,
         gradient_checkpointing_kwargs={"use_reentrant": False},
         optim="paged_adamw_8bit",
-        report_to="none",  # Set to "wandb" if you want W&B logging
+        report_to="none",               # Set to "wandb" if you want W&B logging
         push_to_hub=False,
-    )
-    
-    # Response template for the data collator (Llama 3 format)
-    # This tells the trainer to only compute loss on assistant responses
-    response_template = "<|start_header_id|>assistant<|end_header_id|>\n\n"
-    
-    collator = DataCollatorForCompletionOnlyLM(
-        response_template=response_template,
-        tokenizer=tokenizer,
+        dataloader_pin_memory=False,    # Reduce memory usage
+        # SFT-specific settings
+        max_length=config["max_seq_length"],
+        packing=False,
+        dataset_text_field="text",      # Will be set by formatting_func
     )
     
     # Create trainer
     trainer = SFTTrainer(
         model=model,
-        args=training_args,
+        args=sft_config,
         train_dataset=train_dataset,
         eval_dataset=eval_dataset,
         processing_class=tokenizer,
         formatting_func=formatting_func,
-        data_collator=collator,
-        max_seq_length=config["max_seq_length"],
-        packing=False,
     )
     
     # Train
@@ -384,7 +403,22 @@ def main():
     parser.add_argument(
         "--resume",
         action="store_true",
-        help="Resume from last checkpoint"
+        help="Resume from last checkpoint (same data, continue training)"
+    )
+    
+    parser.add_argument(
+        "--resume-adapter",
+        type=str,
+        default=None,
+        metavar="ADAPTER_PATH",
+        help="Path to existing adapter to continue training with new data"
+    )
+    
+    parser.add_argument(
+        "--data-file", "-d",
+        type=str,
+        default=None,
+        help="Path to custom training data JSON file (overrides default cache)"
     )
     
     parser.add_argument(
@@ -414,6 +448,8 @@ def main():
         output_dir=args.output_dir,
         config=config,
         resume_from_checkpoint=args.resume,
+        data_file=args.data_file,
+        resume_adapter=args.resume_adapter,
     )
 
 
