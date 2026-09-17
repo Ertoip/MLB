@@ -348,3 +348,14 @@ The mobile app supports:
 - Data preprocessing requires an Anthropic API key unless the script is changed to fully support offline cleaning only.
 - Fine-tuning with QLoRA requires a CUDA-capable GPU and Hugging Face access to the base Llama model.
 - More detailed scraper and fine-tuning documentation is available in `data/DOCUMENTATION.md`.
+
+## License
+
+Licensed under the [Apache License 2.0](LICENSE). You must keep the copyright
+notice and state your changes; the license grants patent rights from
+contributors to users and terminates them for anyone who sues over patents.
+No trademark rights are granted.
+
+The license covers this repository's own code. Scraped transcripts under
+`data/` and the Miraculous Ladybug characters remain the property of their
+respective rights holders.
